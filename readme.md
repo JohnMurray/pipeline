@@ -1,6 +1,17 @@
+
 # pipeline
 
 An attempt to create a distributed, statically defined build pipeline.
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [General Idea](#general-idea)
+- [Strong Typing](#strong-typing)
+- [Supplemental Type Information](#supplemental-type-information)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## General Idea
 
