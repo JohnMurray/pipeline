@@ -55,3 +55,40 @@ the long-run is to use some sort of structural, duck-typing. This will be simila
   + object types are defined as sub-messages (no named types)
 + response
   + field names + types
+
+
+An example of what this might look like for a phase output for the above example
+
+```yaml
+type: string
+artifact: structural
+  version: string
+  download-from: string
+```
+
+and for phase input
+
+```yaml
+type:
+  - _type: string
+  - _required: true
+artifact:
+  - _type: structural
+  - required: true
+  version:
+    - _type: string
+    - _required: false
+  download-from:
+    - _type: string
+    - _required: true
+```
+
+The input requirements can additionally specify, aside form the types, whether or not the field is
+required or not. It may be worth defining something similar in the output although it may make just
+as much sense to say that everything is optional.
+
+## Supplemental Type Information
+
+Phases should fit together via inputs and outputs. However it also makes sense that the pipeline definition
+could also define some "default" inputs for phases. This allows phases to be setup as "pure functions" that
+only work with input and output and do not have any other sort of "configuration" mechanism.
