@@ -1,4 +1,15 @@
 [package]
-name = "pipeline"
-version = "0.1.0"
-authors = ["John Murray <me@johnmurray.io>"]
+name        = "pipeline"
+description = "a pipeline for typed phases"
+homepage    = "https://github.com/JohnMurray/pipeline"
+version     = "0.1.0"
+authors     = ["John Murray <me@johnmurray.io>"]
+license     = "MIT"
+keywords    = ["pipeline", "typed", "phases"]
+
+[dependencies]
+rustc-serialize = "0.3"
+
+[dev-dependencies]
+cargo-watch = "*"
+rustfmt     = "*"
