@@ -59,6 +59,7 @@ ErrorKind	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt
 ExprType	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^enum ExprType {$/;"	g
 FIX_ME_CHARS	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^const FIX_ME_CHARS: &'static [char] = &['F', 'I', 'X', 'M', 'E'];$/;"	c
 FORCED_BRACKET_MACROS	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/macros.rs	/^const FORCED_BRACKET_MACROS: &'static [&'static str] = &["vec!"];$/;"	c
+Fieldtype	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^enum Fieldtype {$/;"	g
 FileLines	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^pub struct FileLines(Option<MultiMap<String, Range>>);$/;"	s
 FileMap	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/filemap.rs	/^pub type FileMap = Vec<FileRecord>;$/;"	T
 FileRecord	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/filemap.rs	/^pub type FileRecord = (String, StringBuffer);$/;"	T

@@ -25,22 +25,18 @@ impl Phase {
 /// is used by the Phase.
 struct PhaseRequirement {
     field: String,
-    _type: String,
+    _type: FieldType,
     required: bool,
 }
 
+enum Fieldtype {
+    String,
+    Bool,
+    Numeric,
+    // TODO: figure out how/if we need to define structural / array types
+}
+
 enum PhaseState {
-    /// Things are as expected and should be operating normally for the phase
-    ActiveOk,
-    /// Things are operating as expected, but the phase is reporting that it is
-    /// at or over capacity. Indicates we need to pause some pipelines at this
-    /// phase and throttle to its capacity.
-    ActiveOverCapacity,
-    /// Phase is not responding to reqeusts and/or timing out. We should back off
-    /// on using this phase and throttle back throughput.
-    InActiveNonResponsive,
-    /// Phase has indicated that it is unavailable. Reasons for this belong to the
-    /// phase, but may include things such as maintenance or upgrades of the phase
-    /// processor.
-    InactiveUnavailable,
+    Active,
+    Inactive,
 }

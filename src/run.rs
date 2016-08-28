@@ -1,3 +1,5 @@
+extern crate rustc_serialize;
+use rustc_serialize::json::Json
 
 /// RunConfiguration
 ///   This describes the build definitions or set of phases that a run will
@@ -12,4 +14,5 @@ struct RunConfiguration {
 ///   the RunConfiguration was executed.
 struct Run {
     config: RunConfiguration,
+    phaseResults: Vec[Json],
 }
