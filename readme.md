@@ -72,25 +72,17 @@ An example of what this might look like for a phase output for the above example
 ```yaml
 type: string
 artifact: structural
-  version: string
-  download-from: string
+  - version: string
+  - download-from: string
 ```
 
 and for phase input
 
 ```yaml
-type:
-  - _type: string
-  - _required: true
+type: string | required
 artifact:
-  - _type: structural
-  - required: true
-  version:
-    - _type: string
-    - _required: false
-  download-from:
-    - _type: string
-    - _required: true
+  - version: string | optional
+  - download-from: string | required
 ```
 
 The input requirements can additionally specify, aside form the types, whether or not the field is
