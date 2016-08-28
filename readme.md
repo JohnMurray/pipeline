@@ -6,9 +6,10 @@ An attempt to create a statically declared pipeline.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [General Idea](#general-idea)
-- [Strong Typing](#strong-typing)
-- [Supplemental Type Information](#supplemental-type-information)
+  - [General Idea](#general-idea)
+  - [Strong Typing](#strong-typing)
+  - [Supplemental Type Information](#supplemental-type-information)
+- [Developing](#developing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -94,3 +95,36 @@ as much sense to say that everything is optional.
 Phases should fit together via inputs and outputs. However it also makes sense that the pipeline definition
 could also define some "default" inputs for phases. This allows phases to be setup as "pure functions" that
 only work with input and output and do not have any other sort of "configuration" mechanism.
+
+
+
+
+# Developing
+
+I've tried to setup most of what is required by running
+
+```
+make setup
+```
+
+However you'll still need to install some things (ideally before running `make setup`) such as:
+
+* `ctags` (from `brew` if on Mac OS, must support `--recurse`)
+* `rust` binaries (`rustc`, `cargo`, etc)
+* `npm` (via NodeJS) if you want to update docs
+
+You also need to add the following to your `~/.ctags` file
+
+```
+--langdef=Rust
+--langmap=Rust:.rs
+--regex-Rust=/^[ \t]*(#\[[^\]]\][ \t]*)*(pub[ \t]+)?(extern[ \t]+)?("[^"]+"[ \t]+)?(unsafe[ \t]+)?fn[ \t]+([a-zA-Z0-9_]+)/\6/f,functions,function definitions/
+--regex-Rust=/^[ \t]*(pub[ \t]+)?type[ \t]+([a-zA-Z0-9_]+)/\2/T,types,type definitions/
+--regex-Rust=/^[ \t]*(pub[ \t]+)?enum[ \t]+([a-zA-Z0-9_]+)/\2/g,enum,enumeration names/
+--regex-Rust=/^[ \t]*(pub[ \t]+)?struct[ \t]+([a-zA-Z0-9_]+)/\2/s,structure names/
+--regex-Rust=/^[ \t]*(pub[ \t]+)?mod[ \t]+([a-zA-Z0-9_]+)/\2/m,modules,module names/
+--regex-Rust=/^[ \t]*(pub[ \t]+)?(static|const)[ \t]+(mut[ \t]+)?([a-zA-Z0-9_]+)/\4/c,consts,static constants/
+--regex-Rust=/^[ \t]*(pub[ \t]+)?(unsafe[ \t]+)?trait[ \t]+([a-zA-Z0-9_]+)/\3/t,traits,traits/
+--regex-Rust=/^[ \t]*(pub[ \t]+)?(unsafe[ \t]+)?impl([ \t\n]*<[^>]*>)?[ \t]+(([a-zA-Z0-9_:]+)[ \t]*(<[^>]*>)?[ \t]+(for)[ \t]+)?([a-zA-Z0-9_]+)/\5 \7 \8/i,impls,trait implementations/
+--regex-Rust=/^[ \t]*macro_rules![ \t]+([a-zA-Z0-9_]+)/\1/d,macros,macro definitions/
+```
