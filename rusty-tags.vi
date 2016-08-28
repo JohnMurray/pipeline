@@ -1,0 +1,994 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+Animal	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    enum Animal {$/;"	g
+ArbitraryType	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^        struct ArbitraryType(u32);$/;"	s
+Args	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-watch-3.1.0/src/main.rs	/^struct Args {$/;"	s
+ArgumentKind	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^        enum ArgumentKind<'a> {$/;"	g
+ArgumentKind	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/types.rs	/^    enum ArgumentKind<T>$/;"	g
+Array	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub type Array = Vec<Json>;$/;"	T
+AsJson	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub struct AsJson<'a, T: 'a> { inner: &'a T }$/;"	s
+AsPrettyJson	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub struct AsPrettyJson<'a, T: 'a> { inner: &'a T, indent: Option<u32> }$/;"	s
+BUF	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    const BUF: &'static str = "                ";$/;"	c
+BadIssueSeeker	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^pub struct BadIssueSeeker {$/;"	s
+Builder	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub struct Builder<T> {$/;"	s
+BuilderError	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub type BuilderError = ParserError;$/;"	T
+CHARS	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^static CHARS: &'static[u8] = b"0123456789abcdef";$/;"	c
+CONFIG_FILE_NAMES	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^    const CONFIG_FILE_NAMES: [&'static str; 2] = [".rustfmt.toml", "rustfmt.toml"];$/;"	c
+CharClasses	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^struct CharClasses<T>$/;"	s
+CharClassesStatus	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^enum CharClassesStatus {$/;"	g
+CharacterSet	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^pub enum CharacterSet {$/;"	g
+ChatEvent	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^        enum ChatEvent {$/;"	g
+CliOptions	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^struct CliOptions {$/;"	s
+CodeCharKind	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^pub enum CodeCharKind {$/;"	g
+CommentCodeSlices	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^pub struct CommentCodeSlices<'a> {$/;"	s
+CommentReducer	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^struct CommentReducer<'a> {$/;"	s
+Config	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^pub struct Config {$/;"	s
+Config	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^        pub struct Config {$/;"	s
+ConfigHelpItem	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^pub struct ConfigHelpItem {$/;"	s
+ConfigType	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^pub trait ConfigType: Sized {$/;"	t
+DECODE_TABLE	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^const DECODE_TABLE: [u8; 256] = [$/;"	c
+DEFAULT_COMMANDS	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-watch-3.1.0/src/config.rs	/^pub const DEFAULT_COMMANDS: [&'static str; 1] = ["test"];$/;"	c
+Decodable	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^pub trait Decodable: Sized {$/;"	t
+DecodeEnum	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    enum DecodeEnum {$/;"	g
+DecodeResult	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub type DecodeResult<T> = Result<T, DecoderError>;$/;"	T
+DecodeStruct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    struct DecodeStruct {$/;"	s
+Decoder	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub struct Decoder {$/;"	s
+Decoder	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^pub trait Decoder {$/;"	t
+DecoderError	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub enum DecoderError {$/;"	g
+DecoderHelpers	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^pub trait DecoderHelpers: Decoder {$/;"	t
+DefinitiveListTactic	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^pub enum DefinitiveListTactic {$/;"	g
+DiffLine	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/rustfmt_diff.rs	/^pub enum DiffLine {$/;"	g
+EQUALS_CODE	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^const EQUALS_CODE: u8 = 0xFE;$/;"	c
+Encodable	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^pub trait Encodable {$/;"	t
+EncodeResult	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub type EncodeResult<T> = Result<T, EncoderError>;$/;"	T
+Encoder	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub struct Encoder<'a> {$/;"	s
+Encoder	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^pub trait Encoder {$/;"	t
+EncoderError	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub enum EncoderError {$/;"	g
+EncoderHelpers	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^pub trait EncoderHelpers: Encoder {$/;"	t
+EncodingFormat	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^enum EncodingFormat {$/;"	g
+Enum	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^        enum Enum {$/;"	g
+Err	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    type Err = ParserError;$/;"	T
+Err	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    type Err = String;$/;"	T
+Err	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^            type Err = &'static str;$/;"	T
+Error	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    type Error = DecoderError;$/;"	T
+Error	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    type Error = EncoderError;$/;"	T
+Error	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        type Error = ();$/;"	T
+Error	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    type Error;$/;"	T
+ErrorCode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub enum ErrorCode {$/;"	g
+ErrorKind	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^pub enum ErrorKind {$/;"	g
+ExprType	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^enum ExprType {$/;"	g
+FIX_ME_CHARS	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^const FIX_ME_CHARS: &'static [char] = &['F', 'I', 'X', 'M', 'E'];$/;"	c
+FORCED_BRACKET_MACROS	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/macros.rs	/^const FORCED_BRACKET_MACROS: &'static [&'static str] = &["vec!"];$/;"	c
+FileLines	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^pub struct FileLines(Option<MultiMap<String, Range>>);$/;"	s
+FileMap	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/filemap.rs	/^pub type FileMap = Vec<FileRecord>;$/;"	T
+FileRecord	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/filemap.rs	/^pub type FileRecord = (String, StringBuffer);$/;"	T
+Files	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^pub struct Files<'a>(Option<::std::collections::hash_map::Keys<'a, String, Vec<Range>>>);$/;"	s
+FindUncommented	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^pub trait FindUncommented {$/;"	t
+FloatStruct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    struct FloatStruct {$/;"	s
+FmtError	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^type FmtError = Box<error::Error + Send + Sync>;$/;"	T
+FmtResult	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^type FmtResult<T> = std::result::Result<T, FmtError>;$/;"	T
+FmtVisitor	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^pub struct FmtVisitor<'a> {$/;"	s
+Foo	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^        struct Foo {$/;"	s
+Foo	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^        struct Foo<P> {$/;"	s
+FormatReport	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^pub struct FormatReport {$/;"	s
+FormatShim	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^struct FormatShim<'a, 'b: 'a> {$/;"	s
+FormattingError	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^pub struct FormattingError {$/;"	s
+FromBase64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^pub trait FromBase64 {$/;"	t
+FromBase64Error	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^pub enum FromBase64Error {$/;"	g
+FromHex	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^pub trait FromHex {$/;"	t
+FromHexError	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^pub enum FromHexError {$/;"	g
+FullCodeCharKind	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^enum FullCodeCharKind {$/;"	g
+IGNORED_FILES	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-watch-3.1.0/src/config.rs	/^pub const IGNORED_FILES: [&'static str; 3] = [$/;"	c
+INVALID_CODE	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^const INVALID_CODE: u8 = 0xFF;$/;"	c
+Indent	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^pub struct Indent {$/;"	s
+Inner	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    struct Inner {$/;"	s
+Input	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^pub enum Input {$/;"	g
+InternalStackElement	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^enum InternalStackElement {$/;"	g
+Issue	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^pub struct Issue {$/;"	s
+IssueClassification	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^enum IssueClassification {$/;"	g
+IssueType	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^enum IssueType {$/;"	g
+Item	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    type Item = JsonEvent;$/;"	T
+Item	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    type Item = (CodeCharKind, usize, &'a str);$/;"	T
+Item	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    type Item = (FullCodeCharKind, T::Item);$/;"	T
+Item	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    type Item = char;$/;"	T
+Item	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    type Item = &'a String;$/;"	T
+Item	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^    type Item = ListItem;$/;"	T
+JobInfo	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-watch-3.1.0/src/schedule.rs	/^enum JobInfo {$/;"	g
+Json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub enum Json {$/;"	g
+JsonEvent	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub enum JsonEvent {$/;"	g
+JsonSpan	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^struct JsonSpan {$/;"	s
+LineRange	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/codemap.rs	/^pub struct LineRange {$/;"	s
+LineRangeUtils	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/codemap.rs	/^pub trait LineRangeUtils {$/;"	t
+ListFormatting	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^pub struct ListFormatting<'a> {$/;"	s
+ListItem	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^pub struct ListItem {$/;"	s
+ListItems	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^pub struct ListItems<'a, I, F1, F2, F3>$/;"	s
+ListTactic	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^pub enum ListTactic {$/;"	g
+Loop	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^struct Loop<'a> {$/;"	s
+MAX_ANCESTORS	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-watch-3.1.0/src/config.rs	/^pub const MAX_ANCESTORS: u32 = 10;$/;"	c
+MIME	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^pub static MIME: Config =$/;"	c
+MIN_STRING	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^const MIN_STRING: usize = 10;$/;"	c
+MacroStyle	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/macros.rs	/^enum MacroStyle {$/;"	g
+Mismatch	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/rustfmt_diff.rs	/^pub struct Mismatch {$/;"	s
+MyDecoder	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    struct MyDecoder;$/;"	s
+NEWLINE_CODE	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^const NEWLINE_CODE: u8 = 0xFD;$/;"	c
+Newline	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^pub enum Newline {$/;"	g
+NumberPart	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^enum NumberPart {$/;"	g
+Object	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub type Object = BTreeMap<string::String, Json>;$/;"	T
+Operation	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^enum Operation {$/;"	g
+OptionData	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    struct OptionData {$/;"	s
+Outer	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    struct Outer {$/;"	s
+Output	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    type Output = Json;$/;"	T
+Output	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    type Output = Indent;$/;"	T
+PRE_ALLOCATE_CAP	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/lib.rs	/^    const PRE_ALLOCATE_CAP: usize = 0x100000;$/;"	c
+PROCESS_WAIT_TIMEOUT	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-watch-3.1.0/src/config.rs	/^pub const PROCESS_WAIT_TIMEOUT: u32 = 100;$/;"	c
+ParsedConfig	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^        pub struct ParsedConfig {$/;"	s
+Parser	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub struct Parser<T> {$/;"	s
+ParserError	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub enum ParserError {$/;"	g
+ParserState	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^enum ParserState {$/;"	g
+Phase	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^trait Phase {$/;"	t
+PhaseData	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^struct PhaseData {$/;"	s
+PhaseRequirement	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^struct PhaseRequirement {$/;"	s
+PhaseState	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^enum PhaseState {$/;"	g
+PrettyJson	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub struct PrettyJson<'a> { inner: &'a Json }$/;"	s
+Range	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^struct Range {$/;"	s
+Rewrite	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/rewrite.rs	/^pub trait Rewrite {$/;"	t
+RewriteContext	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/rewrite.rs	/^pub struct RewriteContext<'a> {$/;"	s
+RichChar	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^trait RichChar {$/;"	t
+Run	/Users/jmurray/Dropbox/projects/pipeline/src/run.rs	/^struct Run {$/;"	s
+RunConfiguration	/Users/jmurray/Dropbox/projects/pipeline/src/run.rs	/^struct RunConfiguration {$/;"	s
+SKIP_ANNOTATION	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^const SKIP_ANNOTATION: &'static str = "rustfmt_skip";$/;"	c
+SPECIAL_CODES_START	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^const SPECIAL_CODES_START: u8 = NEWLINE_CODE;$/;"	c
+STANDARD	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^pub static STANDARD: Config =$/;"	c
+STANDARD_CHARS	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^static STANDARD_CHARS: &'static[u8] = b"ABCDEFGHIJKLMNOPQRSTUVWXYZ\\$/;"	c
+Seeking	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^enum Seeking {$/;"	g
+SegmentParam	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/types.rs	/^enum SegmentParam<'a> {$/;"	g
+SeparatorTactic	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^pub enum SeparatorTactic {$/;"	g
+SpanUtils	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/codemap.rs	/^pub trait SpanUtils {$/;"	t
+Spanned	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^pub trait Spanned {$/;"	t
+Stack	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub struct Stack {$/;"	s
+StackElement	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub enum StackElement<'l> {$/;"	g
+StringFormat	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/string.rs	/^pub struct StringFormat<'a> {$/;"	s
+StructLitField	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^    enum StructLitField<'a> {$/;"	g
+Summary	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/summary.rs	/^pub struct Summary {$/;"	s
+TO_DO_CHARS	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^const TO_DO_CHARS: &'static [char] = &['T', 'O', 'D', 'O'];$/;"	c
+Target	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/cargo-fmt.rs	/^pub struct Target {$/;"	s
+TargetKind	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/cargo-fmt.rs	/^enum TargetKind {$/;"	g
+ToBase64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^pub trait ToBase64 {$/;"	t
+ToHex	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^pub trait ToHex {$/;"	t
+ToJson	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub trait ToJson {$/;"	t
+URLSAFE_CHARS	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^static URLSAFE_CHARS: &'static[u8] = b"ABCDEFGHIJKLMNOPQRSTUVWXYZ\\$/;"	c
+URL_SAFE	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^pub static URL_SAFE: Config =$/;"	c
+USAGE	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-watch-3.1.0/src/main.rs	/^static USAGE: &'static str = r#"$/;"	c
+UngroupedCommentCodeSlices	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^struct UngroupedCommentCodeSlices<'a> {$/;"	s
+Verbosity	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/cargo-fmt.rs	/^pub enum Verbosity {$/;"	g
+WATCH_DIRS	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-watch-3.1.0/src/config.rs	/^pub const WATCH_DIRS: [&'static str; 4] = [$/;"	c
+add	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    fn add(self, rhs: Indent) -> Indent {$/;"	f
+add	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    fn add(self, rhs: usize) -> Indent {$/;"	f
+add	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/summary.rs	/^    pub fn add(&mut self, other: Summary) {$/;"	f
+add_diff	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/summary.rs	/^    pub fn add_diff(&mut self) {$/;"	f
+add_formatting_error	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/summary.rs	/^    pub fn add_formatting_error(&mut self) {$/;"	f
+add_operational_error	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/summary.rs	/^    pub fn add_operational_error(&mut self) {$/;"	f
+add_parsing_error	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/summary.rs	/^    pub fn add_parsing_error(&mut self) {$/;"	f
+adjacent_to	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    fn adjacent_to(self, other: Range) -> bool {$/;"	f
+all	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    pub fn all() -> FileLines {$/;"	f
+and_one_line	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn and_one_line(x: Option<String>) -> Option<String> {$/;"	f
+append_alias	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/imports.rs	/^fn append_alias(path_item_str: String, vpi: &ast::PathListItem) -> String {$/;"	f
+append_newline	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/filemap.rs	/^pub fn append_newline(s: &mut StringBuffer) {$/;"	f
+apply_to	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^    fn apply_to(self, config: &mut Config) {$/;"	f
+arg_has_pattern	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn arg_has_pattern(arg: &ast::Arg) -> bool {$/;"	f
+arm_comma	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn arm_comma(config: &Config, arm: &ast::Arm, body: &ast::Expr) -> &'static str {$/;"	f
+arm_end_pos	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn arm_end_pos(arm: &ast::Arm) -> BytePos {$/;"	f
+arm_start_pos	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn arm_start_pos(arm: &ast::Arm) -> BytePos {$/;"	f
+array	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^macro_rules! array {$/;"	d
+as_array	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn as_array<'a>(&'a self) -> Option<&'a Array> {$/;"	f
+as_array_mut	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn as_array_mut<'a>(&'a mut self) -> Option<&'a mut Array> {$/;"	f
+as_boolean	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn as_boolean(&self) -> Option<bool> {$/;"	f
+as_f64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn as_f64(&self) -> Option<f64> {$/;"	f
+as_i64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn as_i64(&self) -> Option<i64> {$/;"	f
+as_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub fn as_json<T: Encodable>(t: &T) -> AsJson<T> {$/;"	f
+as_null	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn as_null(&self) -> Option<()> {$/;"	f
+as_object	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn as_object<'a>(&'a self) -> Option<&'a Object> {$/;"	f
+as_object_mut	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn as_object_mut<'a>(&'a mut self) -> Option<&'a mut Object> {$/;"	f
+as_pretty_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub fn as_pretty_json<T: Encodable>(t: &T) -> AsPrettyJson<T> {$/;"	f
+as_ref	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^    fn as_ref(&self) -> &ListItem {$/;"	f
+as_string	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn as_string<'a>(&'a self) -> Option<&'a str> {$/;"	f
+as_u64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn as_u64(&self) -> Option<u64> {$/;"	f
+assert_stream_equal	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn assert_stream_equal(src: &str,$/;"	f
+bench_decode_hex_escape	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/benches/json.rs	/^fn bench_decode_hex_escape(b: &mut Bencher) {$/;"	f
+bench_from_base64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/benches/base64.rs	/^fn bench_from_base64(b: &mut Bencher) {$/;"	f
+bench_from_base64_large	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/benches/base64.rs	/^fn bench_from_base64_large(b: &mut Bencher) {$/;"	f
+bench_from_hex	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/benches/hex.rs	/^fn bench_from_hex(b: &mut Bencher) {$/;"	f
+bench_large	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/benches/json.rs	/^fn bench_large(b: &mut Bencher) {$/;"	f
+bench_small	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/benches/json.rs	/^fn bench_small(b: &mut Bencher) {$/;"	f
+bench_streaming_large	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/benches/json.rs	/^fn bench_streaming_large(b: &mut Bencher) {$/;"	f
+bench_streaming_small	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/benches/json.rs	/^fn bench_streaming_small(b: &mut Bencher) {$/;"	f
+bench_to_base64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/benches/base64.rs	/^fn bench_to_base64(b: &mut Bencher) {$/;"	f
+bench_to_base64_large	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/benches/base64.rs	/^fn bench_to_base64_large(b: &mut Bencher) {$/;"	f
+bench_to_hex	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/benches/hex.rs	/^fn bench_to_hex(b: &mut Bencher) {$/;"	f
+big_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/benches/json.rs	/^fn big_json() -> string::String {$/;"	f
+bin_search_test	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^fn bin_search_test() {$/;"	f
+binary_search	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^pub fn binary_search<C, T>(mut lo: usize, mut hi: usize, callback: C) -> Option<T>$/;"	f
+block_contains_comment	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn block_contains_comment(block: &ast::Block, codemap: &CodeMap) -> bool {$/;"	f
+block_indent	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    pub fn block_indent(mut self, config: &Config) -> Indent {$/;"	f
+block_unindent	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    pub fn block_unindent(mut self, config: &Config) -> Indent {$/;"	f
+build	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn build(&mut self) -> Result<Json, BuilderError> {$/;"	f
+build_array	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn build_array(&mut self) -> Result<Json, BuilderError> {$/;"	f
+build_object	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn build_object(&mut self) -> Result<Json, BuilderError> {$/;"	f
+build_value	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn build_value(&mut self) -> Result<Json, BuilderError> {$/;"	f
+bump	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn bump(&mut self) {$/;"	f
+bump_index	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn bump_index(&mut self) {$/;"	f
+calculate_width	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^fn calculate_width<I, T>(items: I) -> (usize, usize)$/;"	f
+can_process	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^    fn can_process(input: Json) -> bool;$/;"	f
+canonicalize_path_string	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^fn canonicalize_path_string(s: &str) -> Result<String, ()> {$/;"	f
+cap_capacity	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/lib.rs	/^fn cap_capacity<T>(given_len: usize) -> usize {$/;"	f
+capacity_rules	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^fn capacity_rules() {$/;"	f
+cause	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn cause(&self) -> Option<&StdError> {$/;"	f
+ch_is	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn ch_is(&self, c: char) -> bool {$/;"	f
+ch_or_null	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn ch_or_null(&self) -> char { self.ch.unwrap_or('\\x00') }$/;"	f
+chain_base_indent	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/chains.rs	/^fn chain_base_indent(context: &RewriteContext, offset: Indent) -> Indent {$/;"	f
+chain_indent	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/chains.rs	/^fn chain_indent(context: &RewriteContext, offset: Indent) -> Indent {$/;"	f
+chain_indent_newline	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/chains.rs	/^fn chain_indent_newline(context: &RewriteContext, _offset: Indent) -> Indent {$/;"	f
+chain_only_try	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/chains.rs	/^fn chain_only_try(exprs: &[ast::Expr]) -> bool {$/;"	f
+changed_comment_content	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^fn changed_comment_content(orig: &str, new: &str) -> bool {$/;"	f
+char_classes	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn char_classes() {$/;"	f
+check	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^        fn check(haystack: &str, needle: &str, expected: Option<usize>) {$/;"	f
+check_encoder_for_simple	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    macro_rules! check_encoder_for_simple {$/;"	d
+check_err	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn check_err<T: Decodable>(to_parse: &'static str, expected: DecoderError) {$/;"	f
+check_fail	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^    fn check_fail(text: &str, failing_pos: usize) {$/;"	f
+check_pass	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^    fn check_pass(text: &str) {$/;"	f
+clone	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn clone(&self) -> Self { *self }$/;"	f
+close_block	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    fn close_block(&mut self) {$/;"	f
+comment_code_slices	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn comment_code_slices() {$/;"	f
+comment_code_slices_three	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn comment_code_slices_three() {$/;"	f
+comment_code_slices_two	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn comment_code_slices_two() {$/;"	f
+comment_len	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^fn comment_len(comment: Option<&str>) -> usize {$/;"	f
+compare_path_list_item_lists	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/imports.rs	/^fn compare_path_list_item_lists(a_items: &Vec<ast::PathListItem>,$/;"	f
+compare_path_list_items	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/imports.rs	/^fn compare_path_list_items(a: &ast::PathListItem, b: &ast::PathListItem) -> Ordering {$/;"	f
+compare_path_segments	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/imports.rs	/^fn compare_path_segments(a: &ast::PathSegment, b: &ast::PathSegment) -> Ordering {$/;"	f
+compare_paths	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/imports.rs	/^fn compare_paths(a: &ast::Path, b: &ast::Path) -> Ordering {$/;"	f
+compare_use_items	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/imports.rs	/^fn compare_use_items(a: &ast::Item, b: &ast::Item) -> Option<Ordering> {$/;"	f
+compare_view_path_types	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/imports.rs	/^fn compare_view_path_types(a: &ast::ViewPath_, b: &ast::ViewPath_) -> Ordering {$/;"	f
+compare_view_paths	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/imports.rs	/^fn compare_view_paths(a: &ast::ViewPath_, b: &ast::ViewPath_) -> Ordering {$/;"	f
+compute_budgets_for_args	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn compute_budgets_for_args(context: &RewriteContext,$/;"	f
+configuration_option_enum	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^macro_rules! configuration_option_enum{$/;"	d
+contains	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    fn contains(self, other: Range) -> bool {$/;"	f
+contains	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    pub fn contains(&self, range: &LineRange) -> bool {$/;"	f
+contains_comment	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^pub fn contains_comment(text: &str) -> bool {$/;"	f
+contains_manifest	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-watch-3.1.0/src/cargo.rs	/^    fn contains_manifest(path: &PathBuf) -> bool {$/;"	f
+contains_skip	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^pub fn contains_skip(attrs: &[Attribute]) -> bool {$/;"	f
+convert_try	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/chains.rs	/^fn convert_try(expr: &ast::Expr, context: &RewriteContext) -> ast::Expr {$/;"	f
+convert_try_mac	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/macros.rs	/^pub fn convert_try_mac(mac: &ast::Mac, context: &RewriteContext) -> Option<ast::Expr> {$/;"	f
+count_idents	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^macro_rules! count_idents {$/;"	d
+count_line_breaks	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^    fn count_line_breaks(src: &str) -> usize {$/;"	f
+create_config	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^macro_rules! create_config {$/;"	d
+create_diff	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/filemap.rs	/^    fn create_diff(filename: &str,$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/collection_impls.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<BTreeMap<K, V>, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/collection_impls.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<BTreeSet<T>, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/collection_impls.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<HashMap<K, V>, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/collection_impls.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<HashSet<T>, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/collection_impls.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<LinkedList<T>, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/collection_impls.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<VecDeque<T>, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub fn decode<T: ::Decodable>(s: &str) -> DecodeResult<T> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^            fn decode<D: Decoder>(d: &mut D) -> Result<($($name,)*), D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^            fn decode<D: Decoder>(d: &mut D) -> Result<[T; $len], D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(_d: &mut D) -> Result<PhantomData<T>, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<(), D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Arc<T>, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Box<T>, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Box<[T]>, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Cell<T>, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Cow<'static, T>, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Option<T>, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Rc<T>, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<RefCell<T>, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Self, D::Error>;$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<String, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Vec<T>, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<bool, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<char, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<f32, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<f64, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<i16, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<i32, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<i64, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<i8, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<isize, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<path::PathBuf, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<u16, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<u32, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<u64, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<u8, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<usize, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    fn decode<D: rustc_serialize::Decoder>(_: &mut D) -> Result<Self, D::Error> {$/;"	f
+decode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^            fn decode<D: ::rustc_serialize::Decoder>(d: &mut D) -> Result<Self, D::Error> {$/;"	f
+decode_hex_escape	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn decode_hex_escape(&mut self) -> Result<u16, ParserError> {$/;"	f
+default	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^            fn default() -> Config {$/;"	f
+default	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^    pub fn default(&self) -> &'static str {$/;"	f
+definitive_tactic	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^pub fn definitive_tactic<I, T>(items: I, tactic: ListTactic, width: usize) -> DefinitiveListTactic$/;"	f
+description	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn description(&self) -> &str {$/;"	f
+description	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^    fn description(&self) -> &str {$/;"	f
+description	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn description(&self) -> &str { "decoder error" }$/;"	f
+description	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn description(&self) -> &str { "encoder error" }$/;"	f
+description	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn description(&self) -> &str { "failed to parse json" }$/;"	f
+determine_operation	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^fn determine_operation(matches: &Matches) -> FmtResult<Operation> {$/;"	f
+doc_hint	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^    fn doc_hint() -> String {$/;"	f
+doc_hint	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^    fn doc_hint() -> String;$/;"	f
+doc_hint	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^            fn doc_hint() -> String {$/;"	f
+doc_string	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^    pub fn doc_string(&self) -> &'static str {$/;"	f
+emit_bool	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_bool(&mut self, v: bool) -> EncodeResult<()> {$/;"	f
+emit_bool	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_bool(&mut self, v: bool) -> Result<(), Self::Error>;$/;"	f
+emit_char	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_char(&mut self, v: char) -> EncodeResult<()> {$/;"	f
+emit_char	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_char(&mut self, v: char) -> Result<(), Self::Error>;$/;"	f
+emit_enquoted_if_mapkey	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^macro_rules! emit_enquoted_if_mapkey {$/;"	d
+emit_enum	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_enum<F>(&mut self, _name: &str, f: F) -> EncodeResult<()> where$/;"	f
+emit_enum	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_enum<F>(&mut self, name: &str, f: F) -> Result<(), Self::Error>$/;"	f
+emit_enum_struct_variant	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_enum_struct_variant<F>(&mut self,$/;"	f
+emit_enum_struct_variant	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_enum_struct_variant<F>(&mut self, v_name: &str,$/;"	f
+emit_enum_struct_variant_field	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_enum_struct_variant_field<F>(&mut self,$/;"	f
+emit_enum_struct_variant_field	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_enum_struct_variant_field<F>(&mut self,$/;"	f
+emit_enum_variant	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_enum_variant<F>(&mut self,$/;"	f
+emit_enum_variant	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_enum_variant<F>(&mut self, v_name: &str,$/;"	f
+emit_enum_variant_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_enum_variant_arg<F>(&mut self, idx: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_enum_variant_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_enum_variant_arg<F>(&mut self, a_idx: usize, f: F)$/;"	f
+emit_f32	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_f32(&mut self, v: f32) -> EncodeResult<()> {$/;"	f
+emit_f32	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_f32(&mut self, v: f32) -> Result<(), Self::Error>;$/;"	f
+emit_f64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_f64(&mut self, v: f64) -> EncodeResult<()> {$/;"	f
+emit_f64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_f64(&mut self, v: f64) -> Result<(), Self::Error>;$/;"	f
+emit_from_vec	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_from_vec<T, F>(&mut self, v: &[T], f: F)$/;"	f
+emit_from_vec	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_from_vec<T, F>(&mut self, v: &[T], mut f: F) -> Result<(), S::Error> where$/;"	f
+emit_i16	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_i16(&mut self, v: i16) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_i16	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_i16(&mut self, v: i16) -> Result<(), Self::Error>;$/;"	f
+emit_i32	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_i32(&mut self, v: i32) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_i32	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_i32(&mut self, v: i32) -> Result<(), Self::Error>;$/;"	f
+emit_i64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_i64(&mut self, v: i64) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_i64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_i64(&mut self, v: i64) -> Result<(), Self::Error>;$/;"	f
+emit_i8	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_i8(&mut self, v: i8) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_i8	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_i8(&mut self, v: i8) -> Result<(), Self::Error>;$/;"	f
+emit_isize	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_isize(&mut self, v: isize) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_isize	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_isize(&mut self, v: isize) -> Result<(), Self::Error>;$/;"	f
+emit_map	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_map<F>(&mut self, len: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_map	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_map<F>(&mut self, len: usize, f: F) -> Result<(), Self::Error>$/;"	f
+emit_map_elt_key	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_map_elt_key<F>(&mut self, idx: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_map_elt_key	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_map_elt_key<F>(&mut self, idx: usize, f: F) -> Result<(), Self::Error>$/;"	f
+emit_map_elt_val	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_map_elt_val<F>(&mut self, _idx: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_map_elt_val	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_map_elt_val<F>(&mut self, idx: usize, f: F) -> Result<(), Self::Error>$/;"	f
+emit_nil	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_nil(&mut self) -> EncodeResult<()> {$/;"	f
+emit_nil	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_nil(&mut self) -> Result<(), Self::Error>;$/;"	f
+emit_option	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_option<F>(&mut self, f: F) -> EncodeResult<()> where$/;"	f
+emit_option	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_option<F>(&mut self, f: F) -> Result<(), Self::Error>$/;"	f
+emit_option_none	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_option_none(&mut self) -> EncodeResult<()> {$/;"	f
+emit_option_none	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_option_none(&mut self) -> Result<(), Self::Error>;$/;"	f
+emit_option_some	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_option_some<F>(&mut self, f: F) -> EncodeResult<()> where$/;"	f
+emit_option_some	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_option_some<F>(&mut self, f: F) -> Result<(), Self::Error>$/;"	f
+emit_seq	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_seq<F>(&mut self, len: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_seq	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_seq<F>(&mut self, len: usize, f: F) -> Result<(), Self::Error>$/;"	f
+emit_seq_elt	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_seq_elt<F>(&mut self, idx: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_seq_elt	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_seq_elt<F>(&mut self, idx: usize, f: F) -> Result<(), Self::Error>$/;"	f
+emit_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_str(&mut self, v: &str) -> EncodeResult<()> {$/;"	f
+emit_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_str(&mut self, v: &str) -> Result<(), Self::Error>;$/;"	f
+emit_struct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_struct<F>(&mut self, _: &str, len: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_struct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_struct<F>(&mut self, name: &str, len: usize, f: F)$/;"	f
+emit_struct_field	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_struct_field<F>(&mut self, name: &str, idx: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_struct_field	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_struct_field<F>(&mut self, f_name: &str, f_idx: usize, f: F)$/;"	f
+emit_tuple	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_tuple<F>(&mut self, len: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_tuple	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_tuple<F>(&mut self, len: usize, f: F) -> Result<(), Self::Error>$/;"	f
+emit_tuple_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_tuple_arg<F>(&mut self, idx: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_tuple_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_tuple_arg<F>(&mut self, idx: usize, f: F) -> Result<(), Self::Error>$/;"	f
+emit_tuple_struct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_tuple_struct<F>(&mut self, _: &str, len: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_tuple_struct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_tuple_struct<F>(&mut self, name: &str, len: usize, f: F)$/;"	f
+emit_tuple_struct_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_tuple_struct_arg<F>(&mut self, idx: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_tuple_struct_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_tuple_struct_arg<F>(&mut self, f_idx: usize, f: F)$/;"	f
+emit_u16	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_u16(&mut self, v: u16) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_u16	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_u16(&mut self, v: u16) -> Result<(), Self::Error>;$/;"	f
+emit_u32	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_u32(&mut self, v: u32) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_u32	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_u32(&mut self, v: u32) -> Result<(), Self::Error>;$/;"	f
+emit_u64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_u64(&mut self, v: u64) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_u64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_u64(&mut self, v: u64) -> Result<(), Self::Error>;$/;"	f
+emit_u8	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_u8(&mut self, v: u8) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_u8	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_u8(&mut self, v: u8) -> Result<(), Self::Error>;$/;"	f
+emit_usize	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn emit_usize(&mut self, v: usize) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_usize	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn emit_usize(&mut self, v: usize) -> Result<(), Self::Error>;$/;"	f
+empty	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    pub fn empty() -> Indent {$/;"	f
+encode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/collection_impls.rs	/^    fn encode<E: Encoder>(&self, e: &mut E) -> Result<(), E::Error> {$/;"	f
+encode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/collection_impls.rs	/^    fn encode<E: Encoder>(&self, s: &mut E) -> Result<(), E::Error> {$/;"	f
+encode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/collection_impls.rs	/^    fn encode<S: Encoder>(&self, e: &mut S) -> Result<(), S::Error> {$/;"	f
+encode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/collection_impls.rs	/^    fn encode<S: Encoder>(&self, s: &mut S) -> Result<(), S::Error> {$/;"	f
+encode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn encode<S: ::Encoder>(&self, e: &mut S) -> Result<(), S::Error> {$/;"	f
+encode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub fn encode<T: ::Encodable>(object: &T) -> EncodeResult<string::String> {$/;"	f
+encode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^            fn encode<S: Encoder>(&self, s: &mut S) -> Result<(), S::Error> {$/;"	f
+encode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn encode<S: Encoder>(&self, e: &mut S) -> Result<(), S::Error> {$/;"	f
+encode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn encode<S: Encoder>(&self, s: &mut S) -> Result<(), S::Error> {$/;"	f
+encode	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn encode<S: Encoder>(&self, s: &mut S) -> Result<(), S::Error>;$/;"	f
+end_typaram	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^pub fn end_typaram(typaram: &ast::TyParam) -> BytePos {$/;"	f
+ends_with	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn ends_with(&self, rhs: &[StackElement]) -> bool {$/;"	f
+eof	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn eof(&self) -> bool { self.ch.is_none() }$/;"	f
+eq	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn eq(&self, other: &ParserError) -> bool {$/;"	f
+error	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn error(&mut self, err: &str) -> DecoderError {$/;"	f
+error	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn error<E>(&self, reason: ErrorCode) -> Result<E, ParserError> {$/;"	f
+error	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn error(&mut self, err: &str) -> Self::Error { () }$/;"	f
+error	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn error(&mut self, err: &str) -> Self::Error;$/;"	f
+error_event	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn error_event(&mut self, reason: ErrorCode) -> JsonEvent {$/;"	f
+error_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub fn error_str(error: ErrorCode) -> &'static str {$/;"	f
+escape_char	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^fn escape_char(writer: &mut fmt::Write, v: char) -> EncodeResult<()> {$/;"	f
+escape_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^fn escape_str(wr: &mut fmt::Write, v: &str) -> EncodeResult<()> {$/;"	f
+execute	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/cargo-fmt.rs	/^fn execute() -> i32 {$/;"	f
+execute	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^fn execute(opts: &Options) -> FmtResult<Summary> {$/;"	f
+execute_commands	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-watch-3.1.0/src/schedule.rs	/^fn execute_commands($/;"	f
+expect	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^macro_rules! expect {$/;"	d
+explicit_self_mutability	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn explicit_self_mutability(arg: &ast::Arg) -> ast::Mutability {$/;"	f
+extra_offset	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^pub fn extra_offset(text: &str, offset: Indent) -> usize {$/;"	f
+extract_comment	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn extract_comment(span: Span,$/;"	f
+file_name	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/codemap.rs	/^    pub fn file_name(&self) -> &str {$/;"	f
+files	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    pub fn files(&self) -> Files {$/;"	f
+fill_from_parsed_config	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^            fn fill_from_parsed_config(mut self, parsed: ParsedConfig) -> Config {$/;"	f
+find	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn find<'a>(&'a self, key: &str) -> Option<&'a Json>{$/;"	f
+find_comment_end	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^pub fn find_comment_end(s: &str) -> Option<usize> {$/;"	f
+find_issue	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^fn find_issue() {$/;"	f
+find_path	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn find_path<'a>(&'a self, keys: &[&str]) -> Option<&'a Json>{$/;"	f
+find_uncommented	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn find_uncommented(&self, pat: &str) -> Option<usize> {$/;"	f
+find_uncommented	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn find_uncommented(&self, pat: &str) -> Option<usize>;$/;"	f
+find_unnumbered_issue	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^fn find_unnumbered_issue() {$/;"	f
+first_line_width	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^pub fn first_line_width(s: &str) -> usize {$/;"	f
+fixed_length_array	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn fixed_length_array() {$/;"	f
+fmt	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^    fn fmt(&self, fmt: &mut fmt::Formatter) -> Result<(), fmt::Error> {$/;"	f
+fmt	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    fn fmt(&self, fmt: &mut fmt::Formatter) -> Result<(), fmt::Error> {$/;"	f
+fmt_number_or_null	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^fn fmt_number_or_null(v: f64) -> string::String {$/;"	f
+format_abi	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^pub fn format_abi(abi: abi::Abi, explicit_abi: bool) -> String {$/;"	f
+format_ast	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^fn format_ast<F>(krate: &ast::Crate,$/;"	f
+format_comments	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn format_comments() {$/;"	f
+format_crate	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/cargo-fmt.rs	/^fn format_crate(verbosity: Verbosity) -> Result<ExitStatus, std::io::Error> {$/;"	f
+format_expr	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn format_expr(expr: &ast::Expr,$/;"	f
+format_files	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/cargo-fmt.rs	/^fn format_files(files: &Vec<PathBuf>,$/;"	f
+format_fn_args	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^pub fn format_fn_args<I>(items: I, width: usize, offset: Indent, config: &Config) -> Option<String>$/;"	f
+format_foreign_item	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^    fn format_foreign_item(&mut self, item: &ast::ForeignItem) {$/;"	f
+format_foreign_mod	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^    pub fn format_foreign_mod(&mut self, fm: &ast::ForeignMod, span: Span) {$/;"	f
+format_function_type	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/types.rs	/^fn format_function_type<'a, I>(inputs: I,$/;"	f
+format_generics	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn format_generics(context: &RewriteContext,$/;"	f
+format_header	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn format_header(item_name: &str, ident: ast::Ident, vis: &ast::Visibility) -> String {$/;"	f
+format_impl	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^pub fn format_impl(context: &RewriteContext, item: &ast::Item, offset: Indent) -> Option<String> {$/;"	f
+format_import	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/imports.rs	/^    pub fn format_import(&mut self, vis: &ast::Visibility, vp: &ast::ViewPath, span: Span) {$/;"	f
+format_imports	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/imports.rs	/^    pub fn format_imports(&mut self, use_items: &[ptr::P<ast::Item>]) {$/;"	f
+format_input	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^pub fn format_input<T: Write>(input: Input,$/;"	f
+format_item_list	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^pub fn format_item_list<I>(items: I,$/;"	f
+format_lines	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^fn format_lines(text: &mut StringBuffer, name: &str, config: &Config, report: &mut FormatReport) {$/;"	f
+format_missing	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/missed_spans.rs	/^    pub fn format_missing(&mut self, end: BytePos) {$/;"	f
+format_missing_inner	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/missed_spans.rs	/^    fn format_missing_inner<F: Fn(&mut FmtVisitor, &str, &str)>(&mut self,$/;"	f
+format_missing_with_indent	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/missed_spans.rs	/^    pub fn format_missing_with_indent(&mut self, end: BytePos) {$/;"	f
+format_mod	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    fn format_mod(&mut self, m: &ast::Mod, vis: &ast::Visibility, s: Span, ident: ast::Ident) {$/;"	f
+format_mutability	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^pub fn format_mutability(mutability: ast::Mutability) -> &'static str {$/;"	f
+format_separate_mod	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    pub fn format_separate_mod(&mut self, m: &ast::Mod) {$/;"	f
+format_struct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^pub fn format_struct(context: &RewriteContext,$/;"	f
+format_struct_struct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn format_struct_struct(context: &RewriteContext,$/;"	f
+format_trait	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^pub fn format_trait(context: &RewriteContext, item: &ast::Item, offset: Indent) -> Option<String> {$/;"	f
+format_tuple_struct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn format_tuple_struct(context: &RewriteContext,$/;"	f
+format_unit_struct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn format_unit_struct(item_name: &str, ident: ast::Ident, vis: &ast::Visibility) -> String {$/;"	f
+format_unsafety	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^pub fn format_unsafety(unsafety: ast::Unsafety) -> &'static str {$/;"	f
+format_variant	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^    fn format_variant(&self, field: &ast::Variant) -> Option<String> {$/;"	f
+format_variant_list	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^    fn format_variant_list(&self,$/;"	f
+format_visibility	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^pub fn format_visibility(vis: &Visibility) -> Cow<'static, str> {$/;"	f
+from	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn from(err: ParserError) -> DecoderError {$/;"	f
+from	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn from(err: fmt::Error) -> EncoderError { EncoderError::FmtError(err) }$/;"	f
+from	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn from(err: io::Error) -> ParserError {$/;"	f
+from	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    fn from(range: &'a LineRange) -> Range {$/;"	f
+from_base64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn from_base64(&self) -> Result<Vec<u8>, FromBase64Error> {$/;"	f
+from_base64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn from_base64(&self) -> Result<Vec<u8>, FromBase64Error>;$/;"	f
+from_bool	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^    pub fn from_bool(b: bool) -> SeparatorTactic {$/;"	f
+from_codemap	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    pub fn from_codemap(parse_session: &'a ParseSess, config: &'a Config) -> FmtVisitor<'a> {$/;"	f
+from_hex	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^    fn from_hex(&self) -> Result<Vec<u8>, FromHexError> {$/;"	f
+from_hex	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^    fn from_hex(&self) -> Result<Vec<u8>, FromHexError>;$/;"	f
+from_matches	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^    fn from_matches(matches: &Matches) -> FmtResult<CliOptions> {$/;"	f
+from_multimap	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    fn from_multimap(map: MultiMap<String, Range>) -> FileLines {$/;"	f
+from_reader	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn from_reader(rdr: &mut io::Read) -> Result<Self, BuilderError> {$/;"	f
+from_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn from_str(s: &str) -> Result<Json, ParserError> {$/;"	f
+from_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn from_str(s: &str) -> Result<Self, BuilderError> {$/;"	f
+from_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    fn from_str(s: &str) -> Result<FileLines, String> {$/;"	f
+from_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^    pub fn from_str<S: Into<String>>(s: S) -> ListItem {$/;"	f
+from_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^            fn from_str(s: &str) -> Result<Self, Self::Err> {$/;"	f
+from_toml	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^            pub fn from_toml(toml: &str) -> Config {$/;"	f
+get	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn get<'l>(&'l self, idx: usize) -> StackElement<'l> {$/;"	f
+get_char	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn get_char(&self) -> char {$/;"	f
+get_char	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn get_char(&self) -> char;$/;"	f
+get_context	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    pub fn get_context(&self) -> RewriteContext {$/;"	f
+get_fmt_args	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/cargo-fmt.rs	/^fn get_fmt_args() -> Vec<String> {$/;"	f
+get_span	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/types.rs	/^    fn get_span(&self) -> Span {$/;"	f
+get_targets	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/cargo-fmt.rs	/^fn get_targets() -> Result<Vec<Target>, std::io::Error> {$/;"	f
+git_head_sha1	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/build.rs	/^fn git_head_sha1() -> Option<String> {$/;"	f
+git_tree_is_clean	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/build.rs	/^fn git_tree_is_clean() -> Option<bool> {$/;"	f
+handle	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-watch-3.1.0/src/schedule.rs	/^pub fn handle(rx: Receiver<notify::Event>, mut commands: Vec<String>) {$/;"	f
+has_formatting_errors	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/summary.rs	/^    pub fn has_formatting_errors(&self) -> bool {$/;"	f
+has_line_pre_comment	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^    pub fn has_line_pre_comment(&self) -> bool {$/;"	f
+has_no_errors	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/summary.rs	/^    pub fn has_no_errors(&self) -> bool {$/;"	f
+has_operational_errors	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/summary.rs	/^    pub fn has_operational_errors(&self) -> bool {$/;"	f
+has_parsing_errors	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/summary.rs	/^    pub fn has_parsing_errors(&self) -> bool {$/;"	f
+has_warnings	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    pub fn has_warnings(&self) -> bool {$/;"	f
+impl_enum_decodable	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^macro_rules! impl_enum_decodable {$/;"	d
+indent	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn indent(mut self, indent: u32) -> AsPrettyJson<'a, T> {$/;"	f
+indents	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^        fn indents(source: &str) -> usize {$/;"	f
+index	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn index(&self, idx: &str) -> &Json {$/;"	f
+index	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn index<'a>(&'a self, idx: usize) -> &'a Json {$/;"	f
+inspect	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^    pub fn inspect(&mut self, c: char) -> Option<Issue> {$/;"	f
+inspect_issue	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^    fn inspect_issue(&mut self, c: char, mut todo_idx: usize, mut fixme_idx: usize) -> Seeking {$/;"	f
+inspect_number	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^    fn inspect_number(&mut self,$/;"	f
+intersects	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    fn intersects(self, other: Range) -> bool {$/;"	f
+intersects	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    pub fn intersects(&self, range: &LineRange) -> bool {$/;"	f
+into_tuple	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    fn into_tuple(self) -> Result<(String, Range), String> {$/;"	f
+is_array	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn is_array<'a>(&'a self) -> bool {$/;"	f
+is_bad_issue	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^    fn is_bad_issue(text: &str, report_todo: ReportTactic, report_fixme: ReportTactic) -> bool {$/;"	f
+is_bin	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/cargo-fmt.rs	/^    fn is_bin(&self) -> bool {$/;"	f
+is_block_expr	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/chains.rs	/^fn is_block_expr(expr: &ast::Expr, repr: &str) -> bool {$/;"	f
+is_boolean	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn is_boolean(&self) -> bool {$/;"	f
+is_comment	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn is_comment(&self) -> bool {$/;"	f
+is_continuable	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/chains.rs	/^fn is_continuable(expr: &ast::Expr) -> bool {$/;"	f
+is_empty	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn is_empty(&self) -> bool { self.stack.is_empty() }$/;"	f
+is_empty	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    fn is_empty(self) -> bool {$/;"	f
+is_empty_block	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^pub fn is_empty_block(block: &ast::Block, codemap: &CodeMap) -> bool {$/;"	f
+is_enabled	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^    fn is_enabled(&self) -> bool {$/;"	f
+is_equal_to	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn is_equal_to(&self, rhs: &[StackElement]) -> bool {$/;"	f
+is_f64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn is_f64(&self) -> bool {$/;"	f
+is_i64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn is_i64(&self) -> bool {$/;"	f
+is_ignored_file	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-watch-3.1.0/src/cargo.rs	/^pub fn is_ignored_file(f: &str) -> bool {$/;"	f
+is_impl_single_line	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn is_impl_single_line(context: &RewriteContext,$/;"	f
+is_lib	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/cargo-fmt.rs	/^    fn is_lib(&self) -> bool {$/;"	f
+is_multiline	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^    pub fn is_multiline(&self) -> bool {$/;"	f
+is_named_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^pub fn is_named_arg(arg: &ast::Arg) -> bool {$/;"	f
+is_null	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn is_null(&self) -> bool {$/;"	f
+is_number	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn is_number(&self) -> bool {$/;"	f
+is_object	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn is_object<'a>(&'a self) -> bool {$/;"	f
+is_simple_block	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^pub fn is_simple_block(block: &ast::Block, codemap: &CodeMap) -> bool {$/;"	f
+is_simple_block_stmt	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^pub fn is_simple_block_stmt(block: &ast::Block, codemap: &CodeMap) -> bool {$/;"	f
+is_skip	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^fn is_skip(meta_item: &MetaItem) -> bool {$/;"	f
+is_string	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn is_string<'a>(&'a self) -> bool {$/;"	f
+is_u64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn is_u64(&self) -> bool {$/;"	f
+is_unsafe_block	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn is_unsafe_block(block: &ast::Block) -> bool {$/;"	f
+is_use_item	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^fn is_use_item(item: &ast::Item) -> bool {$/;"	f
+isatty	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/rustfmt_diff.rs	/^    fn isatty() -> bool {$/;"	f
+issue343	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/string.rs	/^    fn issue343() {$/;"	f
+issue_type	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^fn issue_type() {$/;"	f
+itemize_list	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^pub fn itemize_list<'a, T, I, F1, F2, F3>(codemap: &'a CodeMap,$/;"	f
+join_rewrites	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/chains.rs	/^fn join_rewrites(rewrites: &[String], subexps: &[ast::Expr], connector: &str) -> String {$/;"	f
+kill_child	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-watch-3.1.0/src/schedule.rs	/^fn kill_child(child: &mut Child) -> () {$/;"	f
+last_event	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn last_event(src: &str) -> JsonEvent {$/;"	f
+last_is_index	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn last_is_index(&self) -> bool {$/;"	f
+last_line_width	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^pub fn last_line_width(s: &str) -> usize {$/;"	f
+left_most_sub_expr	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^pub fn left_most_sub_expr(e: &ast::Expr) -> &ast::Expr {$/;"	f
+left_trim_comment_line	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^fn left_trim_comment_line(line: &str) -> &str {$/;"	f
+len	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn len(&self) -> usize { self.stack.len() }$/;"	f
+list_files	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/modules.rs	/^pub fn list_files<'a>(krate: &'a ast::Crate,$/;"	f
+list_helper	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^pub fn list_helper<I>(items: I,$/;"	f
+list_submodules	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/modules.rs	/^fn list_submodules<'a>(module: &'a ast::Mod,$/;"	f
+lookup_line_range	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/codemap.rs	/^    fn lookup_line_range(&self, span: Span) -> LineRange {$/;"	f
+lookup_line_range	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/codemap.rs	/^    fn lookup_line_range(&self, span: Span) -> LineRange;$/;"	f
+lookup_project_file	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^fn lookup_project_file(dir: &Path) -> FmtResult<Option<PathBuf>> {$/;"	f
+macro_style	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/macros.rs	/^fn macro_style(mac: &ast::Mac, context: &RewriteContext) -> MacroStyle {$/;"	f
+main	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-watch-3.1.0/src/main.rs	/^fn main() {$/;"	f
+main	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/build.rs	/^fn main() {$/;"	f
+main	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/cargo-fmt.rs	/^fn main() {$/;"	f
+main	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^fn main() {$/;"	f
+main	/Users/jmurray/Dropbox/projects/pipeline/src/main.rs	/^fn main() {$/;"	f
+make_diff	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/rustfmt_diff.rs	/^pub fn make_diff(expected: &str, actual: &str, context_size: usize) -> Vec<Mismatch> {$/;"	f
+make_opts	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^fn make_opts() -> Options {$/;"	f
+make_subexpr_list	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/chains.rs	/^fn make_subexpr_list(expr: &ast::Expr, context: &RewriteContext) -> (ast::Expr, Vec<ast::Expr>) {$/;"	f
+match_cli_path_or_file	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^fn match_cli_path_or_file(config_path: Option<PathBuf>,$/;"	f
+merge	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    fn merge(self, other: Range) -> Option<Range> {$/;"	f
+mk_object	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn mk_object(items: &[(string::String, Json)]) -> Json {$/;"	f
+module_file	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/modules.rs	/^fn module_file(id: ast::Ident,$/;"	f
+move_self_to_front	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/imports.rs	/^fn move_self_to_front(items: &mut Vec<ListItem>) -> bool {$/;"	f
+msg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^macro_rules! msg {$/;"	d
+msg_prefix	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    fn msg_prefix(&self) -> &str {$/;"	f
+msg_suffix	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    fn msg_suffix(&self) -> &str {$/;"	f
+needs_trailing_separator	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^fn needs_trailing_separator(separator_tactic: SeparatorTactic,$/;"	f
+nested_context	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/rewrite.rs	/^    pub fn nested_context(&self) -> RewriteContext<'a> {$/;"	f
+new	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn new() -> Stack {$/;"	f
+new	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn new(json: Json) -> Decoder {$/;"	f
+new	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn new(rdr: T) -> Parser<T> {$/;"	f
+new	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn new(src: T) -> Builder<T> {$/;"	f
+new	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn new(writer: &'a mut fmt::Write) -> Encoder<'a> {$/;"	f
+new	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn new(base: T) -> CharClasses<T> {$/;"	f
+new	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn new(code: &'a str) -> UngroupedCommentCodeSlices<'a> {$/;"	f
+new	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn new(comment: &'a str) -> CommentReducer<'a> {$/;"	f
+new	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    pub fn new(slice: &'a str) -> CommentCodeSlices<'a> {$/;"	f
+new	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    fn new(lo: usize, hi: usize) -> Range {$/;"	f
+new	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/issues.rs	/^    pub fn new(report_todo: ReportTactic, report_fixme: ReportTactic) -> BadIssueSeeker {$/;"	f
+new	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    fn new() -> FormatReport {$/;"	f
+new	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    pub fn new(block_indent: usize, alignment: usize) -> Indent {$/;"	f
+new	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/rustfmt_diff.rs	/^    fn new(line_number: u32) -> Mismatch {$/;"	f
+new	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/summary.rs	/^    pub fn new() -> Summary {$/;"	f
+new_for	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^    fn new_for(pat: &'a ast::Pat,$/;"	f
+new_loop	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^    fn new_loop(block: &'a ast::Block, label: Option<ast::SpannedIdent>) -> Loop<'a> {$/;"	f
+new_pretty	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn new_pretty(writer: &'a mut fmt::Write) -> Encoder<'a> {$/;"	f
+new_while	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^    fn new_while(pat: Option<&'a ast::Pat>,$/;"	f
+newline_for_brace	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn newline_for_brace(config: &Config, where_clause: &ast::WhereClause) -> bool {$/;"	f
+next	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn next(&mut self) -> Option<JsonEvent> {$/;"	f
+next	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn next(&mut self) -> Option<(FullCodeCharKind, T::Item)> {$/;"	f
+next	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn next(&mut self) -> Option<Self::Item> {$/;"	f
+next	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    fn next(&mut self) -> Option<&'a String> {$/;"	f
+next	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^    fn next(&mut self) -> Option<Self::Item> {$/;"	f
+next_char	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn next_char(&mut self) -> Option<char> {$/;"	f
+nop_block_collapse	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn nop_block_collapse(block_str: Option<String>, budget: usize) -> Option<String> {$/;"	f
+normalize_ranges	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^fn normalize_ranges(map: &mut MultiMap<String, Range>) {$/;"	f
+opener	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/macros.rs	/^    fn opener(&self) -> &'static str {$/;"	f
+option_name	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^    pub fn option_name(&self) -> &'static str {$/;"	f
+output_checkstyle_file	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/checkstyle.rs	/^pub fn output_checkstyle_file<T>(mut writer: T,$/;"	f
+output_footer	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/checkstyle.rs	/^pub fn output_footer<T>(out: &mut T, mode: WriteMode) -> Result<(), io::Error>$/;"	f
+output_header	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/checkstyle.rs	/^pub fn output_header<T>(out: &mut T, mode: WriteMode) -> Result<(), io::Error>$/;"	f
+override_value	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^            pub fn override_value(&mut self, key: &str, val: &str) {$/;"	f
+parse	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn parse(&mut self) -> JsonEvent {$/;"	f
+parse_array	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn parse_array(&mut self, first: bool) -> JsonEvent {$/;"	f
+parse_array_comma_or_end	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn parse_array_comma_or_end(&mut self) -> Option<JsonEvent> {$/;"	f
+parse_decimal	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn parse_decimal(&mut self, mut res: f64) -> Result<f64, ParserError> {$/;"	f
+parse_exponent	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn parse_exponent(&mut self, mut res: f64) -> Result<f64, ParserError> {$/;"	f
+parse_ident	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn parse_ident(&mut self, ident: &str, value: JsonEvent) -> JsonEvent {$/;"	f
+parse_input	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^fn parse_input(input: Input,$/;"	f
+parse_number	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn parse_number(&mut self) -> JsonEvent {$/;"	f
+parse_object	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn parse_object(&mut self, first: bool) -> JsonEvent {$/;"	f
+parse_object_end	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn parse_object_end(&mut self) -> JsonEvent {$/;"	f
+parse_start	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn parse_start(&mut self) -> JsonEvent {$/;"	f
+parse_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn parse_str(&mut self) -> Result<string::String, ParserError> {$/;"	f
+parse_u64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn parse_u64(&mut self) -> Result<u64, ParserError> {$/;"	f
+parse_value	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn parse_value(&mut self) -> JsonEvent {$/;"	f
+parse_whitespace	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn parse_whitespace(&mut self) {$/;"	f
+pat_is_simple	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn pat_is_simple(pat_str: &str) -> bool {$/;"	f
+path_of	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/imports.rs	/^fn path_of(a: &ast::ViewPath_) -> &ast::Path {$/;"	f
+peel	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^macro_rules! peel {$/;"	d
+pop	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn pop(&mut self) -> DecodeResult<Json> {$/;"	f
+pop	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn pop(&mut self) {$/;"	f
+pop_expr_chain	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/chains.rs	/^fn pop_expr_chain(expr: &ast::Expr, context: &RewriteContext) -> Option<ast::Expr> {$/;"	f
+pretty	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn pretty(&self) -> PrettyJson {$/;"	f
+print_diff	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/rustfmt_diff.rs	/^pub fn print_diff<F>(diff: Vec<Mismatch>, get_section_title: F)$/;"	f
+print_diff_basic	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/rustfmt_diff.rs	/^pub fn print_diff_basic<F>(diff: Vec<Mismatch>, get_section_title: F)$/;"	f
+print_diff_fancy	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/rustfmt_diff.rs	/^fn print_diff_fancy<F>(diff: Vec<Mismatch>,$/;"	f
+print_docs	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^            pub fn print_docs() {$/;"	f
+print_usage	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/cargo-fmt.rs	/^fn print_usage(opts: &Options, reason: &str) {$/;"	f
+print_usage	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^fn print_usage(opts: &Options, reason: &str) {$/;"	f
+print_version	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^fn print_version() {$/;"	f
+process	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^    fn process(input: Json) -> Json;$/;"	f
+push_index	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn push_index(&mut self, index: u32) {$/;"	f
+push_key	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn push_key(&mut self, key: string::String) {$/;"	f
+push_rewrite	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    fn push_rewrite(&mut self, span: Span, rewrite: Option<String>) {$/;"	f
+read_bool	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_bool(&mut self) -> DecodeResult<bool> {$/;"	f
+read_bool	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_bool(&mut self) -> Result<bool, Self::Error> { Err(()) }$/;"	f
+read_bool	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_bool(&mut self) -> Result<bool, Self::Error>;$/;"	f
+read_char	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_char(&mut self) -> DecodeResult<char> {$/;"	f
+read_char	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_char(&mut self) -> Result<char, Self::Error> { Err(()) }$/;"	f
+read_char	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_char(&mut self) -> Result<char, Self::Error>;$/;"	f
+read_enum	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_enum<T, F>(&mut self, _name: &str, f: F) -> DecodeResult<T> where$/;"	f
+read_enum	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_enum<T, F>(&mut self, name: &str, f: F) -> Result<T, Self::Error>$/;"	f
+read_enum	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_enum<T, F>(&mut self, name: &str, f: F) -> Result<T, Self::Error>$/;"	f
+read_enum_struct_variant	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_enum_struct_variant<T, F>(&mut self, names: &[&str], f: F) -> DecodeResult<T> where$/;"	f
+read_enum_struct_variant	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_enum_struct_variant<T, F>(&mut self, names: &[&str], f: F)$/;"	f
+read_enum_struct_variant	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_enum_struct_variant<T, F>(&mut self, names: &[&str], f: F)$/;"	f
+read_enum_struct_variant_field	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_enum_struct_variant_field<T, F>(&mut self,$/;"	f
+read_enum_struct_variant_field	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_enum_struct_variant_field<T, F>(&mut self,$/;"	f
+read_enum_struct_variant_field	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_enum_struct_variant_field<T, F>(&mut self,$/;"	f
+read_enum_variant	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_enum_variant<T, F>(&mut self, names: &[&str],$/;"	f
+read_enum_variant	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_enum_variant<T, F>(&mut self, names: &[&str], f: F)$/;"	f
+read_enum_variant	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_enum_variant<T, F>(&mut self, names: &[&str], f: F)$/;"	f
+read_enum_variant_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_enum_variant_arg<T, F>(&mut self, _idx: usize, f: F) -> DecodeResult<T> where$/;"	f
+read_enum_variant_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_enum_variant_arg<T, F>(&mut self, a_idx: usize, f: F)$/;"	f
+read_enum_variant_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_enum_variant_arg<T, F>(&mut self, a_idx: usize, f: F)$/;"	f
+read_f32	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_f32(&mut self) -> DecodeResult<f32> {$/;"	f
+read_f32	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_f32(&mut self) -> Result<f32, Self::Error> { Err(()) }$/;"	f
+read_f32	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_f32(&mut self) -> Result<f32, Self::Error>;$/;"	f
+read_f64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_f64(&mut self) -> DecodeResult<f64> {$/;"	f
+read_f64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_f64(&mut self) -> Result<f64, Self::Error> { Err(()) }$/;"	f
+read_f64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_f64(&mut self) -> Result<f64, Self::Error>;$/;"	f
+read_i16	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_i16(&mut self) -> Result<i16, Self::Error> { Err(()) }$/;"	f
+read_i16	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_i16(&mut self) -> Result<i16, Self::Error>;$/;"	f
+read_i32	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_i32(&mut self) -> Result<i32, Self::Error> { Err(()) }$/;"	f
+read_i32	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_i32(&mut self) -> Result<i32, Self::Error>;$/;"	f
+read_i64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_i64(&mut self) -> Result<i64, Self::Error> { Err(()) }$/;"	f
+read_i64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_i64(&mut self) -> Result<i64, Self::Error>;$/;"	f
+read_i8	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_i8(&mut self) -> Result<i8, Self::Error> { Err(()) }$/;"	f
+read_i8	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_i8(&mut self) -> Result<i8, Self::Error>;$/;"	f
+read_isize	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_isize(&mut self) -> Result<isize, Self::Error> { Err(()) }$/;"	f
+read_isize	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_isize(&mut self) -> Result<isize, Self::Error>;$/;"	f
+read_map	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_map<T, F>(&mut self, f: F) -> DecodeResult<T> where$/;"	f
+read_map	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_map<T, F>(&mut self, f: F) -> Result<T, Self::Error>$/;"	f
+read_map	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_map<T, F>(&mut self, f: F) -> Result<T, Self::Error>$/;"	f
+read_map_elt_key	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_map_elt_key<T, F>(&mut self, _idx: usize, f: F) -> DecodeResult<T> where$/;"	f
+read_map_elt_key	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_map_elt_key<T, F>(&mut self, idx: usize, f: F)$/;"	f
+read_map_elt_key	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_map_elt_key<T, F>(&mut self, idx: usize, f: F)$/;"	f
+read_map_elt_val	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_map_elt_val<T, F>(&mut self, _idx: usize, f: F) -> DecodeResult<T> where$/;"	f
+read_map_elt_val	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_map_elt_val<T, F>(&mut self, idx: usize, f: F)$/;"	f
+read_map_elt_val	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_map_elt_val<T, F>(&mut self, idx: usize, f: F)$/;"	f
+read_nil	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_nil(&mut self) -> DecodeResult<()> {$/;"	f
+read_nil	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_nil(&mut self) -> Result<(), Self::Error> { Err(()) }$/;"	f
+read_nil	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_nil(&mut self) -> Result<(), Self::Error>;$/;"	f
+read_option	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_option<T, F>(&mut self, mut f: F) -> DecodeResult<T> where$/;"	f
+read_option	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_option<T, F>(&mut self, f: F) -> Result<T, Self::Error>$/;"	f
+read_option	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_option<T, F>(&mut self, f: F) -> Result<T, Self::Error>$/;"	f
+read_primitive	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^macro_rules! read_primitive {$/;"	d
+read_seq	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_seq<T, F>(&mut self, f: F) -> DecodeResult<T> where$/;"	f
+read_seq	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_seq<T, F>(&mut self, f: F) -> Result<T, Self::Error>$/;"	f
+read_seq	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_seq<T, F>(&mut self, f: F) -> Result<T, Self::Error>$/;"	f
+read_seq_elt	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_seq_elt<T, F>(&mut self, _idx: usize, f: F) -> DecodeResult<T> where$/;"	f
+read_seq_elt	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_seq_elt<T, F>(&mut self, idx: usize, f: F) -> Result<T, Self::Error>$/;"	f
+read_seq_elt	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_seq_elt<T, F>(&mut self, idx: usize, f: F) -> Result<T, Self::Error>$/;"	f
+read_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_str(&mut self) -> DecodeResult<string::String> {$/;"	f
+read_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_str(&mut self) -> Result<String, Self::Error> { Err(()) }$/;"	f
+read_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_str(&mut self) -> Result<String, Self::Error>;$/;"	f
+read_struct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_struct<T, F>(&mut self, _name: &str, _len: usize, f: F) -> DecodeResult<T> where$/;"	f
+read_struct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_struct<T, F>(&mut self, s_name: &str, len: usize, f: F)$/;"	f
+read_struct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_struct<T, F>(&mut self, s_name: &str, len: usize, f: F)$/;"	f
+read_struct_field	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_struct_field<T, F>(&mut self,$/;"	f
+read_struct_field	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_struct_field<T, F>(&mut self,$/;"	f
+read_struct_field	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_struct_field<T, F>(&mut self,$/;"	f
+read_to_vec	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_to_vec<T, F>(&mut self, f: F)$/;"	f
+read_to_vec	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_to_vec<T, F>(&mut self, mut f: F) -> Result<Vec<T>, D::Error> where F:$/;"	f
+read_tuple	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_tuple<T, F>(&mut self, tuple_len: usize, f: F) -> DecodeResult<T> where$/;"	f
+read_tuple	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_tuple<T, F>(&mut self, len: usize, f: F) -> Result<T, Self::Error>$/;"	f
+read_tuple	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_tuple<T, F>(&mut self, len: usize, f: F) -> Result<T, Self::Error>$/;"	f
+read_tuple_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_tuple_arg<T, F>(&mut self, idx: usize, f: F) -> DecodeResult<T> where$/;"	f
+read_tuple_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_tuple_arg<T, F>(&mut self, a_idx: usize, f: F)$/;"	f
+read_tuple_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_tuple_arg<T, F>(&mut self, a_idx: usize, f: F)$/;"	f
+read_tuple_struct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_tuple_struct<T, F>(&mut self,$/;"	f
+read_tuple_struct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_tuple_struct<T, F>(&mut self, s_name: &str, len: usize, f: F)$/;"	f
+read_tuple_struct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_tuple_struct<T, F>(&mut self, s_name: &str, len: usize, f: F)$/;"	f
+read_tuple_struct_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn read_tuple_struct_arg<T, F>(&mut self,$/;"	f
+read_tuple_struct_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_tuple_struct_arg<T, F>(&mut self, a_idx: usize, f: F)$/;"	f
+read_tuple_struct_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_tuple_struct_arg<T, F>(&mut self, a_idx: usize, f: F)$/;"	f
+read_u16	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_u16(&mut self) -> Result<u16, Self::Error> { Err(()) }$/;"	f
+read_u16	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_u16(&mut self) -> Result<u16, Self::Error>;$/;"	f
+read_u32	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_u32(&mut self) -> Result<u32, Self::Error> { Err(()) }$/;"	f
+read_u32	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_u32(&mut self) -> Result<u32, Self::Error>;$/;"	f
+read_u64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_u64(&mut self) -> Result<u64, Self::Error> { Err(()) }$/;"	f
+read_u64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_u64(&mut self) -> Result<u64, Self::Error>;$/;"	f
+read_u8	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_u8(&mut self) -> Result<u8, Self::Error> { Err(()) }$/;"	f
+read_u8	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_u8(&mut self) -> Result<u8, Self::Error>;$/;"	f
+read_usize	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^        fn read_usize(&mut self) -> Result<usize, Self::Error> { Err(()) }$/;"	f
+read_usize	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^    fn read_usize(&mut self) -> Result<usize, Self::Error>;$/;"	f
+recover_comment_removed	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^pub fn recover_comment_removed(new: String,$/;"	f
+ref	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-watch-3.1.0/src/cargo.rs	/^    static ref IGNORED_FILES: Vec<Regex> = {$/;"	c
+remove_comment_header	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^fn remove_comment_header(comment: &str) -> &str {$/;"	f
+replace_chars	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/missed_spans.rs	/^        fn replace_chars(string: &str) -> String {$/;"	f
+resolve_config	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^fn resolve_config(dir: &Path) -> FmtResult<(Config, Option<PathBuf>)> {$/;"	f
+rewrite	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^    fn rewrite(&self, context: &RewriteContext, _width: usize, offset: Indent) -> Option<String> {$/;"	f
+rewrite	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^    fn rewrite(&self, context: &RewriteContext, width: usize, offset: Indent) -> Option<String> {$/;"	f
+rewrite	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/imports.rs	/^    fn rewrite(&self, context: &RewriteContext, width: usize, offset: Indent) -> Option<String> {$/;"	f
+rewrite	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^    fn rewrite(&self, context: &RewriteContext, width: usize, offset: Indent) -> Option<String> {$/;"	f
+rewrite	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/patterns.rs	/^    fn rewrite(&self, context: &RewriteContext, width: usize, offset: Indent) -> Option<String> {$/;"	f
+rewrite	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/rewrite.rs	/^    fn rewrite(&self, context: &RewriteContext, width: usize, offset: Indent) -> Option<String>;$/;"	f
+rewrite	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/types.rs	/^    fn rewrite(&self, context: &RewriteContext, width: usize, offset: Indent) -> Option<String> {$/;"	f
+rewrite	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^    fn rewrite(&self, context: &RewriteContext, width: usize, offset: Indent) -> Option<String> {$/;"	f
+rewrite	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    fn rewrite(&self, context: &RewriteContext, _: usize, offset: Indent) -> Option<String> {$/;"	f
+rewrite_args	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn rewrite_args(context: &RewriteContext,$/;"	f
+rewrite_array	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^pub fn rewrite_array<'a, I>(expr_iter: I,$/;"	f
+rewrite_assign_rhs	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^pub fn rewrite_assign_rhs<S: Into<String>>(context: &RewriteContext,$/;"	f
+rewrite_assignment	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn rewrite_assignment(context: &RewriteContext,$/;"	f
+rewrite_associated_type	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^pub fn rewrite_associated_type(ident: ast::Ident,$/;"	f
+rewrite_bare_fn	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/types.rs	/^fn rewrite_bare_fn(bare_fn: &ast::BareFnTy,$/;"	f
+rewrite_binary_op	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn rewrite_binary_op(context: &RewriteContext,$/;"	f
+rewrite_bounded_lifetime	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/types.rs	/^fn rewrite_bounded_lifetime<'b, I>(lt: &ast::Lifetime,$/;"	f
+rewrite_call	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^pub fn rewrite_call<R>(context: &RewriteContext,$/;"	f
+rewrite_call_inner	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn rewrite_call_inner<R>(context: &RewriteContext,$/;"	f
+rewrite_chain	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/chains.rs	/^pub fn rewrite_chain(expr: &ast::Expr,$/;"	f
+rewrite_chain_subexpr	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/chains.rs	/^fn rewrite_chain_subexpr(expr: &ast::Expr,$/;"	f
+rewrite_closure	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn rewrite_closure(capture: ast::CaptureBy,$/;"	f
+rewrite_comment	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^pub fn rewrite_comment(orig: &str,$/;"	f
+rewrite_explicit_self	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn rewrite_explicit_self(explicit_self: &ast::ExplicitSelf,$/;"	f
+rewrite_expr_addrof	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn rewrite_expr_addrof(context: &RewriteContext,$/;"	f
+rewrite_field	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn rewrite_field(context: &RewriteContext,$/;"	f
+rewrite_fn	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^    pub fn rewrite_fn(&mut self,$/;"	f
+rewrite_fn_base	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn rewrite_fn_base(context: &RewriteContext,$/;"	f
+rewrite_generics	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn rewrite_generics(context: &RewriteContext,$/;"	f
+rewrite_guard	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn rewrite_guard(context: &RewriteContext,$/;"	f
+rewrite_if_else	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn rewrite_if_else(context: &RewriteContext,$/;"	f
+rewrite_label	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn rewrite_label(label: Option<ast::SpannedIdent>) -> String {$/;"	f
+rewrite_macro	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/macros.rs	/^pub fn rewrite_macro(mac: &ast::Mac,$/;"	f
+rewrite_match	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn rewrite_match(context: &RewriteContext,$/;"	f
+rewrite_match_arm_comment	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn rewrite_match_arm_comment(context: &RewriteContext,$/;"	f
+rewrite_method_call	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/chains.rs	/^fn rewrite_method_call(method_name: ast::Ident,$/;"	f
+rewrite_method_call_with_overflow	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/chains.rs	/^fn rewrite_method_call_with_overflow(expr_kind: &ast::ExprKind,$/;"	f
+rewrite_pair	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^pub fn rewrite_pair<LHS, RHS>(lhs: &LHS,$/;"	f
+rewrite_paren	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn rewrite_paren(context: &RewriteContext,$/;"	f
+rewrite_pat_expr	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn rewrite_pat_expr(context: &RewriteContext,$/;"	f
+rewrite_path	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/types.rs	/^pub fn rewrite_path(context: &RewriteContext,$/;"	f
+rewrite_path_item	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/imports.rs	/^fn rewrite_path_item(vpi: &&ast::PathListItem) -> Option<String> {$/;"	f
+rewrite_path_segments	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/types.rs	/^fn rewrite_path_segments<'a, I>(expr_context: bool,$/;"	f
+rewrite_required_fn	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^    pub fn rewrite_required_fn(&mut self,$/;"	f
+rewrite_segment	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/types.rs	/^fn rewrite_segment(expr_context: bool,$/;"	f
+rewrite_single_use_list	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/imports.rs	/^fn rewrite_single_use_list(path_str: Option<String>, vpi: &ast::PathListItem) -> String {$/;"	f
+rewrite_static	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^pub fn rewrite_static(prefix: &str,$/;"	f
+rewrite_string	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/string.rs	/^pub fn rewrite_string<'a>(orig: &str, fmt: &StringFormat<'a>) -> Option<String> {$/;"	f
+rewrite_string_lit	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn rewrite_string_lit(context: &RewriteContext,$/;"	f
+rewrite_struct_lit	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn rewrite_struct_lit<'a>(context: &RewriteContext,$/;"	f
+rewrite_trait_bounds	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn rewrite_trait_bounds(context: &RewriteContext,$/;"	f
+rewrite_try	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/chains.rs	/^pub fn rewrite_try(expr: &ast::Expr,$/;"	f
+rewrite_tuple	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^pub fn rewrite_tuple<'a, I>(context: &RewriteContext,$/;"	f
+rewrite_type_alias	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^pub fn rewrite_type_alias(context: &RewriteContext,$/;"	f
+rewrite_unary_op	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn rewrite_unary_op(context: &RewriteContext,$/;"	f
+rewrite_unary_prefix	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^pub fn rewrite_unary_prefix<R: Rewrite>(context: &RewriteContext,$/;"	f
+rewrite_unary_suffix	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^pub fn rewrite_unary_suffix<R: Rewrite>(context: &RewriteContext,$/;"	f
+rewrite_use_list	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/imports.rs	/^pub fn rewrite_use_list(width: usize,$/;"	f
+rewrite_where_clause	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn rewrite_where_clause(context: &RewriteContext,$/;"	f
+root	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-watch-3.1.0/src/cargo.rs	/^pub fn root() -> Option<PathBuf> {$/;"	f
+run	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^pub fn run(input: Input, config: &Config) -> Summary {$/;"	f
+search	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn search<'a>(&'a self, key: &str) -> Option<&'a Json> {$/;"	f
+semicolon_for_expr	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^pub fn semicolon_for_expr(expr: &ast::Expr) -> bool {$/;"	f
+semicolon_for_stmt	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^pub fn semicolon_for_stmt(stmt: &ast::Stmt) -> bool {$/;"	f
+set_indent	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn set_indent(&mut self, new_indent: u32) -> Result<(), ()> {$/;"	f
+single_line_fn	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^    fn single_line_fn(&self, fn_str: &str, block: &ast::Block) -> Option<String> {$/;"	f
+single_line_if_else	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn single_line_if_else(context: &RewriteContext,$/;"	f
+snippet	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/rewrite.rs	/^    pub fn snippet(&self, span: Span) -> String {$/;"	f
+snippet	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    pub fn snippet(&self, span: Span) -> String {$/;"	f
+source	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^macro_rules! source {$/;"	d
+source_and_formatted_text	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/filemap.rs	/^    fn source_and_formatted_text(text: &StringBuffer,$/;"	f
+spaces	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^fn spaces(wr: &mut fmt::Write, n: u32) -> EncodeResult<()> {$/;"	f
+span	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    fn span(&self) -> Span {$/;"	f
+span	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    fn span(&self) -> Span;$/;"	f
+span_after	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/codemap.rs	/^    fn span_after(&self, original: Span, needle: &str) -> BytePos {$/;"	f
+span_after	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/codemap.rs	/^    fn span_after(&self, original: Span, needle: &str) -> BytePos;$/;"	f
+span_after_last	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/codemap.rs	/^    fn span_after_last(&self, original: Span, needle: &str) -> BytePos {$/;"	f
+span_after_last	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/codemap.rs	/^    fn span_after_last(&self, original: Span, needle: &str) -> BytePos;$/;"	f
+span_before	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/codemap.rs	/^    fn span_before(&self, original: Span, needle: &str) -> BytePos {$/;"	f
+span_before	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/codemap.rs	/^    fn span_before(&self, original: Span, needle: &str) -> BytePos;$/;"	f
+span_for_return	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn span_for_return(ret: &ast::FunctionRetTy) -> Span {$/;"	f
+span_for_ty_param	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn span_for_ty_param(ty: &ast::TyParam) -> Span {$/;"	f
+span_for_where_pred	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn span_for_where_pred(pred: &ast::WherePredicate) -> Span {$/;"	f
+span_hi_for_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^pub fn span_hi_for_arg(arg: &ast::Arg) -> BytePos {$/;"	f
+span_lo_for_arg	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^pub fn span_lo_for_arg(arg: &ast::Arg) -> BytePos {$/;"	f
+stack	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn stack<'l>(&'l self) -> &'l Stack {$/;"	f
+starts_with	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn starts_with(&self, rhs: &[StackElement]) -> bool {$/;"	f
+string_requires_rewrite	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^fn string_requires_rewrite(context: &RewriteContext,$/;"	f
+sub	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    fn sub(self, rhs: Indent) -> Indent {$/;"	f
+sub	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    fn sub(self, rhs: usize) -> Indent {$/;"	f
+target_from_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/cargo-fmt.rs	/^fn target_from_json(jtarget: &Json) -> Target {$/;"	f
+test_as_array	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_as_array(){$/;"	f
+test_as_boolean	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_as_boolean(){$/;"	f
+test_as_f64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_as_f64(){$/;"	f
+test_as_i64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_as_i64(){$/;"	f
+test_as_null	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_as_null(){$/;"	f
+test_as_object	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_as_object(){$/;"	f
+test_as_string	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_as_string(){$/;"	f
+test_as_u64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_as_u64(){$/;"	f
+test_bad_json_stack_depleted	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_bad_json_stack_depleted() {$/;"	f
+test_base64_random	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn test_base64_random() {$/;"	f
+test_contains_comment	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn test_contains_comment() {$/;"	f
+test_decode_array	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_array() {$/;"	f
+test_decode_enum	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_enum() {$/;"	f
+test_decode_errors_enum	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_errors_enum() {$/;"	f
+test_decode_errors_struct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_errors_struct() {$/;"	f
+test_decode_identifiers	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_identifiers() {$/;"	f
+test_decode_map	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_map() {$/;"	f
+test_decode_numbers	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_numbers() {$/;"	f
+test_decode_option	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_option() {$/;"	f
+test_decode_option_malformed	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_option_malformed() {$/;"	f
+test_decode_option_none	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_option_none() {$/;"	f
+test_decode_option_some	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_option_some() {$/;"	f
+test_decode_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_str() {$/;"	f
+test_decode_struct	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_struct() {$/;"	f
+test_decode_struct_with_nan	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_struct_with_nan() {$/;"	f
+test_decode_tuple	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_tuple() {$/;"	f
+test_decode_tuple_malformed_length	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_tuple_malformed_length() {$/;"	f
+test_decode_tuple_malformed_types	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_decode_tuple_malformed_types() {$/;"	f
+test_encode_decode_phantom_data	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_encode_decode_phantom_data() {$/;"	f
+test_encode_hashmap_with_arbitrary_key	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_encode_hashmap_with_arbitrary_key() {$/;"	f
+test_encode_hashmap_with_numeric_key	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_encode_hashmap_with_numeric_key() {$/;"	f
+test_find	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_find(){$/;"	f
+test_find_path	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_find_path(){$/;"	f
+test_find_uncommented	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn test_find_uncommented() {$/;"	f
+test_from_base64_basic	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn test_from_base64_basic() {$/;"	f
+test_from_base64_bytes	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn test_from_base64_bytes() {$/;"	f
+test_from_base64_invalid_char	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn test_from_base64_invalid_char() {$/;"	f
+test_from_base64_invalid_padding	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn test_from_base64_invalid_padding() {$/;"	f
+test_from_base64_newlines	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn test_from_base64_newlines() {$/;"	f
+test_from_base64_urlsafe	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn test_from_base64_urlsafe() {$/;"	f
+test_from_hex_all_bytes	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^    pub fn test_from_hex_all_bytes() {$/;"	f
+test_from_hex_ignores_whitespace	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^    pub fn test_from_hex_ignores_whitespace() {$/;"	f
+test_from_hex_invalid_char	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^    pub fn test_from_hex_invalid_char() {$/;"	f
+test_from_hex_odd_len	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^    pub fn test_from_hex_odd_len() {$/;"	f
+test_from_hex_okay	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^    pub fn test_from_hex_okay() {$/;"	f
+test_from_str_trait	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_from_str_trait() {$/;"	f
+test_hashmap_with_enum_key	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_hashmap_with_enum_key() {$/;"	f
+test_hashmap_with_numeric_key_can_handle_double_quote_delimited_key	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_hashmap_with_numeric_key_can_handle_double_quote_delimited_key() {$/;"	f
+test_hashmap_with_numeric_key_will_error_with_string_keys	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_hashmap_with_numeric_key_will_error_with_string_keys() {$/;"	f
+test_index	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_index(){$/;"	f
+test_is_array	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_is_array(){$/;"	f
+test_is_boolean	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_is_boolean(){$/;"	f
+test_is_f64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_is_f64(){$/;"	f
+test_is_i64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_is_i64(){$/;"	f
+test_is_null	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_is_null(){$/;"	f
+test_is_number	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_is_number(){$/;"	f
+test_is_object	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_is_object(){$/;"	f
+test_is_string	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_is_string(){$/;"	f
+test_is_u64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_is_u64(){$/;"	f
+test_multiline_errors	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_multiline_errors() {$/;"	f
+test_negative_zero	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_negative_zero() {$/;"	f
+test_prettyencode_hashmap_with_numeric_key	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_prettyencode_hashmap_with_numeric_key() {$/;"	f
+test_prettyencoder_indent_level_param	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_prettyencoder_indent_level_param() {$/;"	f
+test_range_adjacent_to	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    fn test_range_adjacent_to() {$/;"	f
+test_range_contains	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    fn test_range_contains() {$/;"	f
+test_range_intersects	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    fn test_range_intersects() {$/;"	f
+test_range_merge	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^    fn test_range_merge() {$/;"	f
+test_read_array	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_read_array() {$/;"	f
+test_read_array_streaming	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_read_array_streaming() {$/;"	f
+test_read_identifiers	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_read_identifiers() {$/;"	f
+test_read_identifiers_streaming	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_read_identifiers_streaming() {$/;"	f
+test_read_number	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_read_number() {$/;"	f
+test_read_object	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_read_object() {$/;"	f
+test_read_object_streaming	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_read_object_streaming() {$/;"	f
+test_read_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_read_str() {$/;"	f
+test_search	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_search(){$/;"	f
+test_stack	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_stack() {$/;"	f
+test_streaming_parser	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_streaming_parser() {$/;"	f
+test_to_base64_basic	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn test_to_base64_basic() {$/;"	f
+test_to_base64_crlf_line_break	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn test_to_base64_crlf_line_break() {$/;"	f
+test_to_base64_empty_line_length	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn test_to_base64_empty_line_length() {$/;"	f
+test_to_base64_lf_line_break	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn test_to_base64_lf_line_break() {$/;"	f
+test_to_base64_padding	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn test_to_base64_padding() {$/;"	f
+test_to_base64_url_safe	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn test_to_base64_url_safe() {$/;"	f
+test_to_hex	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^    pub fn test_to_hex() {$/;"	f
+test_to_hex_all_bytes	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^    pub fn test_to_hex_all_bytes() {$/;"	f
+test_to_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_to_json() {$/;"	f
+test_trailing_characters	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_trailing_characters() {$/;"	f
+test_trailing_characters_streaming	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_trailing_characters_streaming() {$/;"	f
+test_uncommented	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn test_uncommented() {$/;"	f
+test_unexpected_token	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_unexpected_token() {$/;"	f
+test_write_array	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_write_array() {$/;"	f
+test_write_bool	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_write_bool() {$/;"	f
+test_write_char	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_write_char() {$/;"	f
+test_write_enum	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_write_enum() {$/;"	f
+test_write_f64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_write_f64() {$/;"	f
+test_write_i64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_write_i64() {$/;"	f
+test_write_none	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_write_none() {$/;"	f
+test_write_null	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_write_null() {$/;"	f
+test_write_object	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_write_object() {$/;"	f
+test_write_some	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_write_some() {$/;"	f
+test_write_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn test_write_str() {$/;"	f
+to_base64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn to_base64(&self, config: Config) -> String {$/;"	f
+to_base64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/base64.rs	/^    fn to_base64(&self, config: Config) -> String;$/;"	f
+to_codecharkind	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn to_codecharkind(&self) -> CodeCharKind {$/;"	f
+to_hex	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^    fn to_hex(&self) -> String {$/;"	f
+to_hex	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/hex.rs	/^    fn to_hex(&self) -> String;$/;"	f
+to_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^            fn to_json(&self) -> Json { Json::I64(*self as i64) }$/;"	f
+to_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^            fn to_json(&self) -> Json { Json::U64(*self as u64) }$/;"	f
+to_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^            fn to_json(&self) -> Json {$/;"	f
+to_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn to_json(&self) -> Json { (*self as f64).to_json() }$/;"	f
+to_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn to_json(&self) -> Json { Json::Array(self.iter().map(|elt| elt.to_json()).collect()) }$/;"	f
+to_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn to_json(&self) -> Json { Json::Boolean(*self) }$/;"	f
+to_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn to_json(&self) -> Json { Json::Null }$/;"	f
+to_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn to_json(&self) -> Json { Json::String((*self).clone()) }$/;"	f
+to_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn to_json(&self) -> Json { Json::String(self.to_string()) }$/;"	f
+to_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn to_json(&self) -> Json { self.clone() }$/;"	f
+to_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn to_json(&self) -> Json {$/;"	f
+to_json	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn to_json(&self) -> Json;$/;"	f
+to_json_impl_i64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^macro_rules! to_json_impl_i64 {$/;"	d
+to_json_impl_u64	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^macro_rules! to_json_impl_u64 {$/;"	d
+to_list_tactic	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^    pub fn to_list_tactic(self) -> ListTactic {$/;"	f
+to_string	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    pub fn to_string(&self, config: &Config) -> String {$/;"	f
+top	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    pub fn top<'l>(&'l self) -> Option<StackElement<'l>> {$/;"	f
+total_item_width	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^fn total_item_width(item: &ListItem) -> usize {$/;"	f
+trim_newlines	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^pub fn trim_newlines(input: &str) -> &str {$/;"	f
+trimmed_last_line_width	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^pub fn trimmed_last_line_width(s: &str) -> usize {$/;"	f
+try_opt	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^macro_rules! try_opt {$/;"	d
+try_or_invalid	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^                            macro_rules! try_or_invalid {$/;"	d
+tuple	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^macro_rules! tuple {$/;"	d
+tuple_impl	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^macro_rules! tuple_impl {$/;"	d
+type_annotation_separator	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/expr.rs	/^pub fn type_annotation_separator(config: &Config) -> &str {$/;"	f
+type_annotation_spacing	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^fn type_annotation_spacing(config: &Config) -> &str {$/;"	f
+uncommented	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/comment.rs	/^    fn uncommented(text: &str) -> String {$/;"	f
+variant_names	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/config.rs	/^    pub fn variant_names(&self) -> &String {$/;"	f
+visit_attrs	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    pub fn visit_attrs(&mut self, attrs: &[ast::Attribute]) -> bool {$/;"	f
+visit_block	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    pub fn visit_block(&mut self, b: &ast::Block) {$/;"	f
+visit_enum	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/items.rs	/^    pub fn visit_enum(&mut self,$/;"	f
+visit_fn	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    fn visit_fn(&mut self,$/;"	f
+visit_impl_item	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    pub fn visit_impl_item(&mut self, ii: &ast::ImplItem) {$/;"	f
+visit_item	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    pub fn visit_item(&mut self, item: &ast::Item) {$/;"	f
+visit_mac	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    fn visit_mac(&mut self, mac: &ast::Mac, ident: Option<ast::Ident>) {$/;"	f
+visit_stmt	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    fn visit_stmt(&mut self, stmt: &ast::Stmt) {$/;"	f
+visit_trait_item	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    pub fn visit_trait_item(&mut self, ti: &ast::TraitItem) {$/;"	f
+walk_mod_items	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    fn walk_mod_items(&mut self, m: &ast::Mod) {$/;"	f
+warning_count	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    pub fn warning_count(&self) -> usize {$/;"	f
+width	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lib.rs	/^    pub fn width(&self) -> usize {$/;"	f
+wrap_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/utils.rs	/^pub fn wrap_str<S: AsRef<str>>(s: S, max_width: usize, width: usize, offset: Indent) -> Option<S> {$/;"	f
+write_all_files	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/filemap.rs	/^pub fn write_all_files<T>(file_map: &FileMap, out: &mut T, config: &Config) -> Result<(), io::Error>$/;"	f
+write_file	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/filemap.rs	/^pub fn write_file<T>(text: &StringBuffer,$/;"	f
+write_list	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^pub fn write_list<I, T>(items: I, formatting: &ListFormatting) -> Option<String>$/;"	f
+write_snippet	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/missed_spans.rs	/^    fn write_snippet<F>(&mut self, span: Span, process_last_snippet: F)$/;"	f
+write_snippet_inner	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/missed_spans.rs	/^    fn write_snippet_inner<F>(&mut self,$/;"	f
+write_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn write_str(&mut self, s: &str) -> fmt::Result {$/;"	f
+write_system_newlines	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/filemap.rs	/^pub fn write_system_newlines<T>(writer: T,$/;"	f
+xml_escape_str	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/checkstyle.rs	/^fn xml_escape_str(string: &str) -> String {$/;"	f
