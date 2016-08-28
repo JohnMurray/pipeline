@@ -1,11 +1,24 @@
 extern crate rustc_serialize;
-use rustc_serialize::json::Json
+use rustc_serialize::json::{Json, Null}
+
+/// Data associated with a Phase
+struct Phase {
+    name: String,
+    requirements: Vec<PhaseRequirement>,
+    state: PhaseState,
+}
 
 /// Defines a Phase as a set of pure functions.
-trait Phase {
-    fn can_process(input: Json) -> bool;
+impl Phase {
+    fn can_process(input: Json) -> bool {
+        // TODO: implement method
+        false
+    }
 
-    fn process(input: Json) -> Json;
+    fn process(input: Json) -> Json {
+        // TODO: implement method
+        Null
+    }
 }
 
 /// A requirement definition for Phase input. Describes a single field that
@@ -30,11 +43,4 @@ enum PhaseState {
     /// phase, but may include things such as maintenance or upgrades of the phase
     /// processor.
     InactiveUnavailable,
-}
-
-/// Data associated with Phase. This is data that is persistent for the life of the
-/// phase and is not associated with a single invocation of a Phase.
-struct PhaseData {
-    requirements: Vec<PhaseRequirement>,
-    state: PhaseState,
 }

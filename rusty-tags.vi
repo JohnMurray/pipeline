@@ -125,8 +125,8 @@ ParsedConfig	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rust
 Parser	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub struct Parser<T> {$/;"	s
 ParserError	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub enum ParserError {$/;"	g
 ParserState	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^enum ParserState {$/;"	g
-Phase	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^trait Phase {$/;"	t
-PhaseData	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^struct PhaseData {$/;"	s
+Phase	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^impl Phase {$/;"	i
+Phase	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^struct Phase {$/;"	s
 PhaseRequirement	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^struct PhaseRequirement {$/;"	s
 PhaseState	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^enum PhaseState {$/;"	g
 PrettyJson	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^pub struct PrettyJson<'a> { inner: &'a Json }$/;"	s
@@ -218,7 +218,7 @@ build_value	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc
 bump	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn bump(&mut self) {$/;"	f
 bump_index	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn bump_index(&mut self) {$/;"	f
 calculate_width	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/lists.rs	/^fn calculate_width<I, T>(items: I) -> (usize, usize)$/;"	f
-can_process	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^    fn can_process(input: Json) -> bool;$/;"	f
+can_process	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^    fn can_process(input: Json) -> bool {$/;"	f
 canonicalize_path_string	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/file_lines.rs	/^fn canonicalize_path_string(s: &str) -> Result<String, ()> {$/;"	f
 cap_capacity	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/lib.rs	/^fn cap_capacity<T>(given_len: usize) -> usize {$/;"	f
 capacity_rules	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/serialize.rs	/^fn capacity_rules() {$/;"	f
@@ -644,7 +644,7 @@ print_docs	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfm
 print_usage	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/cargo-fmt.rs	/^fn print_usage(opts: &Options, reason: &str) {$/;"	f
 print_usage	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^fn print_usage(opts: &Options, reason: &str) {$/;"	f
 print_version	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/bin/rustfmt.rs	/^fn print_version() {$/;"	f
-process	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^    fn process(input: Json) -> Json;$/;"	f
+process	/Users/jmurray/Dropbox/projects/pipeline/src/phase.rs	/^    fn process(input: Json) -> Json {$/;"	f
 push_index	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn push_index(&mut self, index: u32) {$/;"	f
 push_key	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.19/src/json.rs	/^    fn push_key(&mut self, key: string::String) {$/;"	f
 push_rewrite	/Users/jmurray/.cargo/registry/src/github.com-1ecc6299db9ec823/rustfmt-0.6.0/src/visitor.rs	/^    fn push_rewrite(&mut self, span: Span, rewrite: Option<String>) {$/;"	f
