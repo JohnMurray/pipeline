@@ -98,6 +98,20 @@ only work with input and output and do not have any other sort of "configuration
 
 
 
+# Development
+
+This is really for my own management and is a lit of things that I need to do next.
+
+[ ] Set up web framework
+  [ ] Get it working (hello world)
+  [ ] Define service contract / endpoint for registration including data-models
+  [ ] Define web-service for displaying pipeline results (placeholder)
+[ ] Write "source" plugin for Git repository
+[ ] Write dummy test plugin (always passes)
+[ ] Write storage mechanism for pipeline results
+[ ] Update service for displaying pipeline results
+
+
 
 # Developing
 
