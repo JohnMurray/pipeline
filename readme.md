@@ -1,5 +1,7 @@
 # pipeline
 
+[![Build Status](https://travis-ci.org/JohnMurray/pipeline.svg?branch=master)](https://travis-ci.org/JohnMurray/pipeline)
+
 An attempt to create a statically declared pipeline.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
