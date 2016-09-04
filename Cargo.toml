@@ -10,6 +10,9 @@ keywords    = ["pipeline", "typed", "phases"]
 [dependencies]
 rustc-serialize = "0.3"
 
+[dependencies.nickel]
+version = "*"
+
 [dev-dependencies]
 cargo-watch = "*"
 rustfmt     = "*"
